@@ -1,0 +1,1074 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.1.0'?>
+<repository name='file:/Users/dwoodard/.hudson/jobs/kura_release_full/workspace/target-platform/p2-repo-common/target/repository - metadata' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1445624746384'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <units size='22'>
+    <unit id='jdk.dio' version='1.0.2' singleton='false'>
+      <update id='jdk.dio' range='[0.0.0,1.0.2)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Device IO'/>
+        <property name='org.eclipse.equinox.p2.description' value='OpenJDK Device IO implementation'/>
+      </properties>
+      <provides size='16'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='jdk.dio' version='1.0.2'/>
+        <provided namespace='osgi.bundle' name='jdk.dio' version='1.0.2'/>
+        <provided namespace='java.package' name='jdk.dio.generic' version='1.0.2'/>
+        <provided namespace='java.package' name='jdk.dio.uart' version='1.0.2'/>
+        <provided namespace='java.package' name='jdk.dio.gpio' version='1.0.2'/>
+        <provided namespace='java.package' name='jdk.dio.adc' version='1.0.2'/>
+        <provided namespace='java.package' name='jdk.dio.watchdog' version='1.0.2'/>
+        <provided namespace='java.package' name='jdk.dio.power' version='1.0.2'/>
+        <provided namespace='java.package' name='jdk.dio.spibus' version='1.0.2'/>
+        <provided namespace='java.package' name='jdk.dio.i2cbus' version='1.0.2'/>
+        <provided namespace='java.package' name='jdk.dio.dac' version='1.0.2'/>
+        <provided namespace='java.package' name='jdk.dio.spi' version='1.0.2'/>
+        <provided namespace='java.package' name='jdk.dio.atcmd' version='1.0.2'/>
+        <provided namespace='java.package' name='jdk.dio.modem' version='1.0.2'/>
+        <provided namespace='java.package' name='jdk.dio' version='1.0.2'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='java.package' name='jdk.dio.atcmd' range='0.0.0'/>
+        <required namespace='java.package' name='jdk.dio.i2cbus' range='0.0.0'/>
+        <required namespace='java.package' name='jdk.dio.modem' range='0.0.0'/>
+        <required namespace='java.package' name='jdk.dio.spibus' range='0.0.0'/>
+        <required namespace='java.package' name='jdk.dio.uart' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='jdk.dio' version='1.0.2'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-Name: Device IO&#xA;Bundle-Version: 1.0.2&#xA;Bundle-NativeCode: lib/native/linux/armv6_hf/libdio.so; osname=Linux; processor=ARM; selection-filter=&quot;(&amp;(kura.arch=armv7_hf))&quot;,lib/native/linux/armv5_sf/libdio.so; osname=Linux;&#x9;processor=ARM; selection-filter=&quot;(&amp;(kura.arch=armv7_sf))&quot;,lib/native/linux/armv6_hf/libdio.so; osname=Linux; processor=ARM; selection-filter=&quot;(&amp;(kura.arch=armv6_hf))&quot;,lib/native/linux/armv5_sf/libdio.so; osname=Linux;&#x9;processor=ARM; selection-filter=&quot;(&amp;(kura.arch=armv6_sf))&quot;,lib/native/linux/armv5_sf/libdio.so; osname=Linux;&#x9;processor=ARM; selection-filter=&quot;(&amp;(kura.arch=armv5_sf))&quot;,lib/native/linux/x86/libdio.so; osname=Linux; processor=x86,lib/native/linux/x86_64/libdio.so; osname=Linux; processor=x86_64&#xA;Import-Package: jdk.dio.atcmd,jdk.dio.i2cbus,jdk.dio.modem,jdk.dio.spibus,jdk.dio.uart&#xA;Created-By: Apache Maven Bundle Plugin&#xA;Export-Package: jdk.dio.generic;uses:=&quot;jdk.dio&quot;;version=&quot;1.0.2&quot;,jdk.dio.uart;uses:=&quot;jdk.dio.modem,jdk.dio&quot;;version=&quot;1.0.2&quot;,jdk.dio.gpio;uses:=&quot;jdk.dio&quot;;version=&quot;1.0.2&quot;,jdk.dio.adc;uses:=&quot;jdk.dio&quot;;version=&quot;1.0.2&quot;,jdk.dio.watchdog;uses:=&quot;jdk.dio&quot;;version=&quot;1.0.2&quot;,jdk.dio.power;uses:=&quot;jdk.dio&quot;;version=&quot;1.0.2&quot;,jdk.dio.spibus;uses:=&quot;jdk.dio&quot;;version=&quot;1.0.2&quot;,jdk.dio.i2cbus;uses:=&quot;jdk.dio&quot;;version=&quot;1.0.2&quot;,jdk.dio.dac;uses:=&quot;jdk.dio&quot;;version=&quot;1.0.2&quot;,jdk.dio.spi;uses:=&quot;jdk.dio&quot;;version=&quot;1.0.2&quot;,jdk.dio.atcmd;uses:=&quot;jdk.dio,jdk.dio.modem&quot;;version=&quot;1.0.2&quot;,jdk.dio.modem;uses:=&quot;jdk.dio&quot;;version=&quot;1.0.2&quot;,jdk.dio;uses:=&quot;jdk.dio.spi&quot;;version=&quot;1.0.2&quot;&#xA;Tool: Bnd-1.43.0&#xA;Bundle-SymbolicName: jdk.dio&#xA;Built-By: eurotech&#xA;Manifest-Version: 1&#xA;Build-Jdk: 1.7.0_80&#xA;Bundle-Description: OpenJDK Device IO implementation&#xA;Bundle-ManifestVersion: 2&#xA;Bnd-LastModified: 1444637926658&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.commons.lang3' version='3.4.0' singleton='false'>
+      <update id='org.apache.commons.lang3' range='[0.0.0,3.4.0)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Apache Commons Lang'/>
+        <property name='org.eclipse.equinox.p2.description' value='Apache Commons Lang, a package of Java utility classes for the  classes that are in java.lang&apos;s hierarchy, or are considered to be so  standard as to justify existence in java.lang.'/>
+        <property name='org.eclipse.equinox.p2.provider' value='The Apache Software Foundation'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://commons.apache.org/proper/commons-lang/'/>
+      </properties>
+      <provides size='15'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.lang3' version='3.4.0'/>
+        <provided namespace='osgi.bundle' name='org.apache.commons.lang3' version='3.4.0'/>
+        <provided namespace='java.package' name='org.apache.commons.lang3' version='3.4.0'/>
+        <provided namespace='java.package' name='org.apache.commons.lang3.builder' version='3.4.0'/>
+        <provided namespace='java.package' name='org.apache.commons.lang3.concurrent' version='3.4.0'/>
+        <provided namespace='java.package' name='org.apache.commons.lang3.event' version='3.4.0'/>
+        <provided namespace='java.package' name='org.apache.commons.lang3.exception' version='3.4.0'/>
+        <provided namespace='java.package' name='org.apache.commons.lang3.math' version='3.4.0'/>
+        <provided namespace='java.package' name='org.apache.commons.lang3.mutable' version='3.4.0'/>
+        <provided namespace='java.package' name='org.apache.commons.lang3.reflect' version='3.4.0'/>
+        <provided namespace='java.package' name='org.apache.commons.lang3.text' version='3.4.0'/>
+        <provided namespace='java.package' name='org.apache.commons.lang3.text.translate' version='3.4.0'/>
+        <provided namespace='java.package' name='org.apache.commons.lang3.time' version='3.4.0'/>
+        <provided namespace='java.package' name='org.apache.commons.lang3.tuple' version='3.4.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.commons.lang3' version='3.4.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-Name: Apache Commons Lang&#xA;Bundle-Version: 3.4.0&#xA;Specification-Vendor: The Apache Software Foundation&#xA;X-Compile-Source-JDK: 1.6&#xA;Specification-Title: Apache Commons Lang&#xA;Implementation-Vendor-Id: org.apache&#xA;Created-By: Apache Maven Bundle Plugin&#xA;Implementation-Vendor: The Apache Software Foundation&#xA;Bundle-Vendor: The Apache Software Foundation&#xA;Archiver-Version: Plexus Archiver&#xA;Tool: Bnd-2.3.0.201405100607&#xA;Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt&#xA;Implementation-Version: 3.4&#xA;Manifest-Version: 1.0&#xA;Build-Jdk: 1.7.0_75&#xA;Bundle-Description: Apache Commons Lang, a package of Java utility classes for the  classes that are in java.lang&apos;s hierarchy, or are considered to be so  standard as to justify existence in java.lang.&#xA;Bundle-ManifestVersion: 2&#xA;Implementation-Title: Apache Commons Lang&#xA;Bnd-LastModified: 1428064228221&#xA;Implementation-Build: tags/LANG_3_4_RC2@r1671054; 2015-04-03 12:30:21+0000&#xA;Export-Package: org.apache.commons.lang3;version=&quot;3.4&quot;,org.apache.commons.lang3.builder;version=&quot;3.4&quot;,org.apache.commons.lang3.concurrent;version=&quot;3.4&quot;,org.apache.commons.lang3.event;version=&quot;3.4&quot;,org.apache.commons.lang3.exception;version=&quot;3.4&quot;,org.apache.commons.lang3.math;version=&quot;3.4&quot;,org.apache.commons.lang3.mutable;version=&quot;3.4&quot;,org.apache.commons.lang3.reflect;version=&quot;3.4&quot;,org.apache.commons.lang3.text;version=&quot;3.4&quot;,org.apache.commons.lang3.text.translate;version=&quot;3.4&quot;,org.apache.commons.lang3.time;version=&quot;3.4&quot;,org.apache.commons.lang3.tuple;version=&quot;3.4&quot;&#xA;X-Compile-Target-JDK: 1.6&#xA;Include-Resource: META-INF/LICENSE.txt=LICENSE.txt,META-INF/NOTICE.txt=NOTICE.txt&#xA;Bundle-DocURL: http://commons.apache.org/proper/commons-lang/&#xA;Require-Capability: osgi.ee;filter:=&quot;(&amp;(osgi.ee=JavaSE)(version=1.6))&quot;&#xA;Bundle-SymbolicName: org.apache.commons.lang3&#xA;Built-By: britter&#xA;Specification-Version: 3.4&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.gwt.user' version='0.2.0' singleton='false'>
+      <update id='com.gwt.user' range='[0.0.0,0.2.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.name' value='User'/>
+      </properties>
+      <provides size='177'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.gwt.user' version='0.2.0'/>
+        <provided namespace='osgi.bundle' name='com.gwt.user' version='0.2.0'/>
+        <provided namespace='java.package' name='com.allen_sauer.gwt.log.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.allen_sauer.gwt.log.client.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.allen_sauer.gwt.log.client.util' version='0.0.0'/>
+        <provided namespace='java.package' name='com.allen_sauer.gwt.log.client.util.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.allen_sauer.gwt.log.rebind' version='0.0.0'/>
+        <provided namespace='java.package' name='com.allen_sauer.gwt.log.server' version='0.0.0'/>
+        <provided namespace='java.package' name='com.allen_sauer.gwt.log.shared' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.activity.shared' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.animation.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.animation.client.testing' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.benchmarks' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.benchmarks.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.benchmarks.client.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.benchmarks.rebind' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.canvas.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.canvas.dom.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.cell.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.codegen.rebind' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.codegen.server' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.core.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.core.client.debug' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.core.client.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.core.client.prefetch' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.core.client.testing' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.debug.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.dom.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.editor.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.editor.client.adapters' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.editor.client.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.editor.client.testing' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.editor.rebind' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.editor.rebind.model' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.editor.ui.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.editor.ui.client.adapters' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.event.dom.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.event.logical.shared' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.event.shared' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.event.shared.testing' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.geolocation.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.http.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.i18n.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.i18n.client.constants' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.i18n.client.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.i18n.client.impl.cldr' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.i18n.client.impl.plurals' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.i18n.linker' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.i18n.rebind' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.i18n.rebind.format' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.i18n.rebind.keygen' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.i18n.server' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.i18n.server.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.i18n.server.keygen' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.i18n.server.testing' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.i18n.shared' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.i18n.shared.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.i18n.shared.impl.cldr' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.i18n.tools' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.json.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.jsonp.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.junit' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.junit.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.junit.client.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.junit.linker' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.junit.rebind' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.junit.remote' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.junit.server' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.junit.tools' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.layout.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.logging.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.logging.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.logging.server' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.logging.shared' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.media.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.media.dom.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.place.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.place.rebind' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.place.shared' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.precompress.linker' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.regexp.shared' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.resources.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.resources.client.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.resources.css' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.resources.css.ast' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.resources.ext' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.resources.rebind.context' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.resources.rg' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.rpc.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.rpc.client.ast' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.rpc.client.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.rpc.linker' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.rpc.rebind' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.rpc.server' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.safecss.shared' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.safehtml.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.safehtml.rebind' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.safehtml.shared' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.storage.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.text.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.text.shared' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.text.shared.testing' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.touch.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.uibinder.attributeparsers' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.uibinder.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.uibinder.elementparsers' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.uibinder.rebind' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.uibinder.rebind.messages' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.uibinder.rebind.model' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.cellview.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.client.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.client.rpc' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.client.rpc.core.java.lang' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.client.rpc.core.java.math' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.client.rpc.core.java.sql' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.client.rpc.core.java.util' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.client.rpc.core.java.util.logging' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.client.rpc.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.client.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.client.ui.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.datepicker.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.linker.rpc' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.rebind' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.rebind.rpc' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.rebind.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.server' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.server.rpc' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.server.rpc.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.tools' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.user.tools.util' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.util.regexfilter' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.validation.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.validation.client.constraints' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.validation.client.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.validation.client.spi' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.validation.rebind' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.view.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.widget.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.xhr.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.xml.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.gwt.xml.client.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.autobean.gwt.client.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.autobean.gwt.rebind' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.autobean.gwt.rebind.model' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.autobean.shared' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.autobean.shared.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.autobean.vm' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.autobean.vm.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.event.shared' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.event.shared.testing' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.requestfactory.apt' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.requestfactory.gwt.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.requestfactory.gwt.client.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.requestfactory.gwt.client.testing' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.requestfactory.gwt.rebind' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.requestfactory.gwt.rebind.model' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.requestfactory.gwt.ui.client' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.requestfactory.server' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.requestfactory.server.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.requestfactory.server.testing' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.requestfactory.shared' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.requestfactory.shared.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.requestfactory.shared.impl.posers' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.requestfactory.shared.messages' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.requestfactory.shared.testing' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.requestfactory.vm' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.requestfactory.vm.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.google.web.bindery.requestfactory.vm.testing' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hibernate.validator' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hibernate.validator.engine' version='0.0.0'/>
+        <provided namespace='java.package' name='org.w3c.css.sac' version='0.0.0'/>
+        <provided namespace='java.package' name='org.w3c.css.sac.helpers' version='0.0.0'/>
+        <provided namespace='java.package' name='org.w3c.flute.parser' version='0.0.0'/>
+        <provided namespace='java.package' name='org.w3c.flute.parser.selectors' version='0.0.0'/>
+        <provided namespace='java.package' name='org.w3c.flute.util' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='java.package' name='javax.servlet.http' range='2.6.0'/>
+        <required namespace='java.package' name='javax.servlet' range='2.6.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.gwt.user' version='0.2.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-ManifestVersion: 2&#xA;Bundle-Name: User&#xA;Bundle-Version: 0.2.0&#xA;Export-Package: com.allen_sauer.gwt.log.client,com.allen_sauer.gwt.log.client.impl,com.allen_sauer.gwt.log.client.util,com.allen_sauer.gwt.log.client.util.impl,com.allen_sauer.gwt.log.rebind,com.allen_sauer.gwt.log.server,com.allen_sauer.gwt.log.shared,com.google.gwt.activity.shared,com.google.gwt.animation.client,com.google.gwt.animation.client.testing,com.google.gwt.benchmarks,com.google.gwt.benchmarks.client,com.google.gwt.benchmarks.client.impl,com.google.gwt.benchmarks.rebind,com.google.gwt.canvas.client,com.google.gwt.canvas.dom.client,com.google.gwt.cell.client,com.google.gwt.codegen.rebind,com.google.gwt.codegen.server,com.google.gwt.core.client,com.google.gwt.core.client.debug,com.google.gwt.core.client.impl,com.google.gwt.core.client.prefetch,com.google.gwt.core.client.testing,com.google.gwt.debug.client,com.google.gwt.dom.client,com.google.gwt.editor.client,com.google.gwt.editor.client.adapters,com.google.gwt.editor.client.impl,com.google.gwt.editor.client.testing,com.google.gwt.editor.rebind,com.google.gwt.editor.rebind.model,com.google.gwt.editor.ui.client,com.google.gwt.editor.ui.client.adapters,com.google.gwt.event.dom.client,com.google.gwt.event.logical.shared,com.google.gwt.event.shared,com.google.gwt.event.shared.testing,com.google.gwt.geolocation.client,com.google.gwt.http.client,com.google.gwt.i18n.client,com.google.gwt.i18n.client.constants,com.google.gwt.i18n.client.impl,com.google.gwt.i18n.client.impl.cldr,com.google.gwt.i18n.client.impl.plurals,com.google.gwt.i18n.linker,com.google.gwt.i18n.rebind,com.google.gwt.i18n.rebind.format,com.google.gwt.i18n.rebind.keygen,com.google.gwt.i18n.server,com.google.gwt.i18n.server.impl,com.google.gwt.i18n.server.keygen,com.google.gwt.i18n.server.testing,com.google.gwt.i18n.shared,com.google.gwt.i18n.shared.impl,com.google.gwt.i18n.shared.impl.cldr,com.google.gwt.i18n.tools,com.google.gwt.json.client,com.google.gwt.jsonp.client,com.google.gwt.junit,com.google.gwt.junit.client,com.google.gwt.junit.client.impl,com.google.gwt.junit.linker,com.google.gwt.junit.rebind,com.google.gwt.junit.remote,com.google.gwt.junit.server,com.google.gwt.junit.tools,com.google.gwt.layout.client,com.google.gwt.logging.client,com.google.gwt.logging.impl,com.google.gwt.logging.server,com.google.gwt.logging.shared,com.google.gwt.media.client,com.google.gwt.media.dom.client,com.google.gwt.place.impl,com.google.gwt.place.rebind,com.google.gwt.place.shared,com.google.gwt.precompress.linker,com.google.gwt.regexp.shared,com.google.gwt.resources.client,com.google.gwt.resources.client.impl,com.google.gwt.resources.css,com.google.gwt.resources.css.ast,com.google.gwt.resources.ext,com.google.gwt.resources.rebind.context,com.google.gwt.resources.rg,com.google.gwt.rpc.client,com.google.gwt.rpc.client.ast,com.google.gwt.rpc.client.impl,com.google.gwt.rpc.linker,com.google.gwt.rpc.rebind,com.google.gwt.rpc.server,com.google.gwt.safecss.shared,com.google.gwt.safehtml.client,com.google.gwt.safehtml.rebind,com.google.gwt.safehtml.shared,com.google.gwt.storage.client,com.google.gwt.text.client,com.google.gwt.text.shared,com.google.gwt.text.shared.testing,com.google.gwt.touch.client,com.google.gwt.uibinder.attributeparsers,com.google.gwt.uibinder.client,com.google.gwt.uibinder.elementparsers,com.google.gwt.uibinder.rebind,com.google.gwt.uibinder.rebind.messages,com.google.gwt.uibinder.rebind.model,com.google.gwt.user.cellview.client,com.google.gwt.user.client,com.google.gwt.user.client.impl,com.google.gwt.user.client.rpc,com.google.gwt.user.client.rpc.core.java.lang,com.google.gwt.user.client.rpc.core.java.math,com.google.gwt.user.client.rpc.core.java.sql,com.google.gwt.user.client.rpc.core.java.util,com.google.gwt.user.client.rpc.core.java.util.logging,com.google.gwt.user.client.rpc.impl,com.google.gwt.user.client.ui,com.google.gwt.user.client.ui.impl,com.google.gwt.user.datepicker.client,com.google.gwt.user.linker.rpc,com.google.gwt.user.rebind,com.google.gwt.user.rebind.rpc,com.google.gwt.user.rebind.ui,com.google.gwt.user.server,com.google.gwt.user.server.rpc,com.google.gwt.user.server.rpc.impl,com.google.gwt.user.tools,com.google.gwt.user.tools.util,com.google.gwt.util.regexfilter,com.google.gwt.validation.client,com.google.gwt.validation.client.constraints,com.google.gwt.validation.client.impl,com.google.gwt.validation.client.spi,com.google.gwt.validation.rebind,com.google.gwt.view.client,com.google.gwt.widget.client,com.google.gwt.xhr.client,com.google.gwt.xml.client,com.google.gwt.xml.client.impl,com.google.web.bindery.autobean.gwt.client.impl,com.google.web.bindery.autobean.gwt.rebind,com.google.web.bindery.autobean.gwt.rebind.model,com.google.web.bindery.autobean.shared,com.google.web.bindery.autobean.shared.impl,com.google.web.bindery.autobean.vm,com.google.web.bindery.autobean.vm.impl,com.google.web.bindery.event.shared,com.google.web.bindery.event.shared.testing,com.google.web.bindery.requestfactory.apt,com.google.web.bindery.requestfactory.gwt.client,com.google.web.bindery.requestfactory.gwt.client.impl,com.google.web.bindery.requestfactory.gwt.client.testing,com.google.web.bindery.requestfactory.gwt.rebind,com.google.web.bindery.requestfactory.gwt.rebind.model,com.google.web.bindery.requestfactory.gwt.ui.client,com.google.web.bindery.requestfactory.server,com.google.web.bindery.requestfactory.server.impl,com.google.web.bindery.requestfactory.server.testing,com.google.web.bindery.requestfactory.shared,com.google.web.bindery.requestfactory.shared.impl,com.google.web.bindery.requestfactory.shared.impl.posers,com.google.web.bindery.requestfactory.shared.messages,com.google.web.bindery.requestfactory.shared.testing,com.google.web.bindery.requestfactory.vm,com.google.web.bindery.requestfactory.vm.impl,com.google.web.bindery.requestfactory.vm.testing,org.hibernate.validator,org.hibernate.validator.engine,org.w3c.css.sac,org.w3c.css.sac.helpers,org.w3c.flute.parser,org.w3c.flute.parser.selectors,org.w3c.flute.util&#xA;Bundle-RequiredExecutionEnvironment: JavaSE-1.7&#xA;Bundle-ClassPath: gwt-log-3.1.8.jar,gwt-user-2.4.0.jar&#xA;Bundle-SymbolicName: com.gwt.user&#xA;Manifest-Version: 1.0&#xA;Import-Package: javax.servlet.http; version=&quot;2.6.0&quot;,javax.servlet; version=&quot;2.6.0&quot;&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.junit' version='4.10.0.v4_10_0_v20120426-0900' singleton='false'>
+      <update id='org.junit' range='[0.0.0,4.10.0.v4_10_0_v20120426-0900)' severity='0'/>
+      <properties size='5'>
+        <property name='df_LT.providerName' value='Eclipse Orbit'/>
+        <property name='df_LT.pluginName' value='JUnit Testing Framework'/>
+        <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='32'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.junit' version='4.10.0.v4_10_0_v20120426-0900'/>
+        <provided namespace='osgi.bundle' name='org.junit' version='4.10.0.v4_10_0_v20120426-0900'/>
+        <provided namespace='java.package' name='junit.extensions' version='4.10.0'/>
+        <provided namespace='java.package' name='junit.framework' version='4.10.0'/>
+        <provided namespace='java.package' name='junit.runner' version='4.10.0'/>
+        <provided namespace='java.package' name='junit.textui' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.experimental' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.experimental.categories' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.experimental.max' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.experimental.results' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.experimental.runners' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.experimental.theories' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.experimental.theories.internal' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.experimental.theories.suppliers' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.internal' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.internal.builders' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.internal.matchers' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.internal.requests' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.internal.runners' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.internal.runners.model' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.internal.runners.rules' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.internal.runners.statements' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.matchers' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.rules' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.runner' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.runner.manipulation' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.runner.notification' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.runners' version='4.10.0'/>
+        <provided namespace='java.package' name='org.junit.runners.model' version='4.10.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='osgi.bundle' name='org.hamcrest.core' range='1.1.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.junit' version='4.10.0.v4_10_0_v20120426-0900'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-ManifestVersion: 2&#xA;Export-Package: junit.extensions;version=&quot;4.10.0&quot;,junit.framework;version=&quot;4.10.0&quot;,junit.runner;version=&quot;4.10.0&quot;,junit.textui;version=&quot;4.10.0&quot;,org.junit;version=&quot;4.10.0&quot;,org.junit.experimental;version=&quot;4.10.0&quot;,org.junit.experimental.categories;version=&quot;4.10.0&quot;,org.junit.experimental.max;version=&quot;4.10.0&quot;,org.junit.experimental.results;version=&quot;4.10.0&quot;,org.junit.experimental.runners;version=&quot;4.10.0&quot;,org.junit.experimental.theories;version=&quot;4.10.0&quot;,org.junit.experimental.theories.internal;version=&quot;4.10.0&quot;;x-internal:=true,org.junit.experimental.theories.suppliers;version=&quot;4.10.0&quot;,org.junit.internal;version=&quot;4.10.0&quot;;x-internal:=true,org.junit.internal.builders;version=&quot;4.10.0&quot;;x-internal:=true,org.junit.internal.matchers;version=&quot;4.10.0&quot;;x-internal:=true,org.junit.internal.requests;version=&quot;4.10.0&quot;;x-internal:=true,org.junit.internal.runners;version=&quot;4.10.0&quot;;x-internal:=true,org.junit.internal.runners.model;version=&quot;4.10.0&quot;;x-internal:=true,org.junit.internal.runners.rules;version=&quot;4.10.0&quot;;x-internal:=true,org.junit.internal.runners.statements;version=&quot;4.10.0&quot;;x-internal:=true,org.junit.matchers;version=&quot;4.10.0&quot;,org.junit.rules;version=&quot;4.10.0&quot;,org.junit.runner;version=&quot;4.10.0&quot;,org.junit.runner.manipulation;version=&quot;4.10.0&quot;,org.junit.runner.notification;version=&quot;4.10.0&quot;,org.junit.runners;version=&quot;4.10.0&quot;,org.junit.runners.model;version=&quot;4.10.0&quot;&#xA;Bundle-RequiredExecutionEnvironment: J2SE-1.5&#xA;Bundle-Localization: plugin&#xA;Require-Bundle: org.hamcrest.core;bundle-version=&quot;1.1.0&quot;;visibility:=reexport&#xA;Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/tools:org.eclipse.orbit/org.junit;tag=v4_10_0_v20120426-0900&#xA;Bundle-Name: %pluginName&#xA;Bundle-Version: 4.10.0.v4_10_0_v20120426-0900&#xA;Bundle-Vendor: %providerName&#xA;Bundle-SymbolicName: org.junit&#xA;Bundle-ClassPath: junit.jar&#xA;Manifest-Version: 1.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.usb4java' version='1.0.0' singleton='false'>
+      <update id='org.usb4java' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='usb4java'/>
+        <property name='org.eclipse.equinox.p2.description' value='usb4java 1.2.0  libraries using libusb'/>
+      </properties>
+      <provides size='11'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.usb4java' version='1.0.0'/>
+        <provided namespace='osgi.bundle' name='org.usb4java' version='1.0.0'/>
+        <provided namespace='java.package' name='org.usb4java.linux-arm' version='1.2.0'/>
+        <provided namespace='java.package' name='org.usb4java.windows-x86' version='1.2.0'/>
+        <provided namespace='java.package' name='org.usb4java.osx-x86' version='1.2.0'/>
+        <provided namespace='java.package' name='org.usb4java' version='1.2.0'/>
+        <provided namespace='java.package' name='org.usb4java.windows-x86_64' version='1.2.0'/>
+        <provided namespace='java.package' name='org.usb4java.osx-x86_64' version='1.2.0'/>
+        <provided namespace='java.package' name='org.usb4java.linux-x86' version='1.2.0'/>
+        <provided namespace='java.package' name='org.usb4java.linux-x86_64' version='1.2.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='java.package' name='org.apache.commons.lang3.builder' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.commons.lang3.tuple' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.usb4java' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Embed-Dependency: org.usb4java;groupId=org.usb4java;artifactId=org.usb4java;version=1.2.0;scope=runtime,org.usb4java.linux-arm;groupId=org.usb4java;artifactId=org.usb4java.linux-arm;version=1.2.0;scope=system,org.usb4java.linux-x86_64;groupId=org.usb4java;artifactId=org.usb4java.linux-x86_64;version=1.2.0;scope=system,org.usb4java.linux-x86;groupId=org.usb4java;artifactId=org.usb4java.linux-x86;version=1.2.0;scope=system,org.usb4java.osx-x86_64;groupId=org.usb4java;artifactId=org.usb4java.osx-x86_64;version=1.2.0;scope=system,org.usb4java.osx-x86;groupId=org.usb4java;artifactId=org.usb4java.osx-x86;version=1.2.0;scope=system,org.usb4java.windows-x86_64;groupId=org.usb4java;artifactId=org.usb4java.windows-x86_64;version=1.2.0;scope=system,org.usb4java.windows-x86;groupId=org.usb4java;artifactId=org.usb4java.windows-x86;version=1.2.0;scope=system&#xA;Import-Package: org.apache.commons.lang3.builder,org.apache.commons.lang3.tuple&#xA;Bundle-ManifestVersion: 2&#xA;Created-By: Apache Maven Bundle Plugin&#xA;Manifest-Version: 1&#xA;Tool: Bnd-1.43.0&#xA;Bundle-Name: usb4java&#xA;Bnd-LastModified: 1445624689882&#xA;Bundle-ClassPath: .,libusb4java-1.2.0-linux-arm.jar,libusb4java-1.2.0-linux-x86_64.jar,libusb4java-1.2.0-linux-x86.jar,libusb4java-1.2.0-osx-x86_64.jar,libusb4java-1.2.0-osx-x86.jar,libusb4java-1.2.0-windows-x86_64.jar,libusb4java-1.2.0-windows-x86.jar&#xA;Build-Jdk: 1.7.0_45&#xA;Bundle-Description: usb4java 1.2.0  libraries using libusb&#xA;Bundle-Version: 1.0.0&#xA;Export-Package: org.usb4java.linux-arm;version=&quot;1.2.0&quot;,org.usb4java.windows-x86;version=&quot;1.2.0&quot;,org.usb4java.osx-x86;version=&quot;1.2.0&quot;,org.usb4java;uses:=&quot;org.apache.commons.lang3.builder,org.apache.commons.lang3.tuple&quot;;version=&quot;1.2.0&quot;,org.usb4java.windows-x86_64;version=&quot;1.2.0&quot;,org.usb4java.osx-x86_64;version=&quot;1.2.0&quot;,org.usb4java.linux-x86;version=&quot;1.2.0&quot;,org.usb4java.linux-x86_64;version=&quot;1.2.0&quot;&#xA;Bundle-SymbolicName: org.usb4java&#xA;Built-By: dwoodard&#xA;RELEASE_VERSION: 1.3.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='slf4j.jdk14' version='1.6.4' singleton='false'>
+      <update id='slf4j.jdk14' range='[0.0.0,1.6.4)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='slf4j-jdk14'/>
+        <property name='org.eclipse.equinox.p2.description' value='The slf4j JDK14 binding'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SLF4J.ORG'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='slf4j.jdk14' version='1.6.4'/>
+        <provided namespace='osgi.bundle' name='slf4j.jdk14' version='1.6.4'/>
+        <provided namespace='java.package' name='org.slf4j.impl' version='1.6.4'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='osgi.fragment' name='slf4j.api' version='1.6.4'/>
+      </provides>
+      <requires size='4'>
+        <required namespace='osgi.bundle' name='slf4j.api' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='1.6.4'/>
+        <required namespace='java.package' name='org.slf4j.spi' range='1.6.4'/>
+        <required namespace='java.package' name='org.slf4j.helpers' range='1.6.4'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='slf4j.jdk14' version='1.6.4'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-Version: 1.6.4&#xA;Build-Jdk: 1.6.0_16&#xA;Implementation-Title: slf4j-jdk14&#xA;Export-Package: org.slf4j.impl;version=1.6.4&#xA;Import-Package: org.slf4j;version=1.6.4, org.slf4j.spi;version=1.6.4, org.slf4j.helpers;version=1.6.4&#xA;Manifest-Version: 1.0&#xA;Fragment-Host: slf4j.api&#xA;Bundle-RequiredExecutionEnvironment: J2SE-1.3&#xA;Bundle-SymbolicName: slf4j.jdk14&#xA;Created-By: Apache Maven&#xA;Built-By: ceki&#xA;Implementation-Version: 1.6.4&#xA;Bundle-Description: The slf4j JDK14 binding&#xA;Bundle-Vendor: SLF4J.ORG&#xA;Bundle-Name: slf4j-jdk14&#xA;Archiver-Version: Plexus Archiver&#xA;Bundle-ManifestVersion: 2&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.codeminders.hidapi' version='1.1.1' singleton='false'>
+      <update id='com.codeminders.hidapi' range='[0.0.0,1.1.1)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='%bundle.name'/>
+        <property name='org.eclipse.equinox.p2.description' value='JNI wrapper around C/C++ HIDAPI library providing simple java API to work with devices such as USB gamepads, joysticks, keyboards etc.'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.codeminders.hidapi' version='1.1.1'/>
+        <provided namespace='osgi.bundle' name='com.codeminders.hidapi' version='1.1.1'/>
+        <provided namespace='java.package' name='com.codeminders.hidapi' version='1.1.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='java.package' name='com.codeminders.hidapi' range='0.0.0'/>
+        <required namespace='java.package' name='javax.swing' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.codeminders.hidapi' version='1.1.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Import-Package: com.codeminders.hidapi,javax.swing&#xA;Bundle-ManifestVersion: 2&#xA;Created-By: Apache Maven Bundle Plugin&#xA;Manifest-Version: 1&#xA;Tool: Bnd-1.43.0&#xA;Bundle-Name: %bundle.name&#xA;Bundle-License: http://opensource.org/licenses/BSD-3-Clause&#xA;Bnd-LastModified: 1445624676430&#xA;Build-Jdk: 1.7.0_45&#xA;Bundle-Description: JNI wrapper around C/C++ HIDAPI library providing simple java API to work with devices such as USB gamepads, joysticks, keyboards etc.&#xA;Bundle-NativeCode: lib/linux/x86/libhidapi.so; osname=Linux; processor=x86,lib/linux/x86_64/libhidapi.so; osname=Linux; processor=x86-64,lib/linux/armv6_hf/libhidapi.so; osname=Linux; processor=ARM; selection-filter=&quot;(&amp;(kura.arch=armv7_hf))&quot;,lib/linux/armv5_sf/libhidapi.so; osname=Linux; processor=ARM; selection-filter=&quot;(&amp;(kura.arch=armv7_sf))&quot;,lib/linux/armv6_hf/libhidapi.so; osname=Linux; processor=ARM; selection-filter=&quot;(&amp;(kura.arch=armv6_hf))&quot;,lib/linux/armv5_sf/libhidapi.so; osname=Linux; processor=ARM; selection-filter=&quot;(&amp;(kura.arch=armv6_sf))&quot;,lib/linux/armv5_sf/libhidapi.so; osname=Linux; processor=ARM; selection-filter=&quot;(&amp;(kura.arch=armv5_sf))&quot;,lib/mac/x86/libhidapi.jnilib; osname=macosx; processor=x86,lib/mac/x86_64/libhidapi.jnilib; osname=macosx; processor=x86-64,lib/win/x86/hidapi.dll; osname=win32; processor=x86,lib/win/x86_64/hidapi.dll; osname=win64; processor=x86-64,*&#xA;Bundle-Version: 1.1.1&#xA;Export-Package: com.codeminders.hidapi;version=&quot;1.1.1&quot;&#xA;Bundle-SymbolicName: com.codeminders.hidapi&#xA;Built-By: dwoodard&#xA;RELEASE_VERSION: 1.3.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.commons.io' version='2.4.0' singleton='false'>
+      <update id='org.apache.commons.io' range='[0.0.0,2.4.0)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Commons IO'/>
+        <property name='org.eclipse.equinox.p2.description' value='The Commons IO library contains utility classes, stream implementations, file filters, file comparators, endian transformation classes, and much more.'/>
+        <property name='org.eclipse.equinox.p2.provider' value='The Apache Software Foundation'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://commons.apache.org/io/'/>
+      </properties>
+      <provides size='14'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.io' version='2.4.0'/>
+        <provided namespace='osgi.bundle' name='org.apache.commons.io' version='2.4.0'/>
+        <provided namespace='java.package' name='org.apache.commons.io' version='1.4.9999'/>
+        <provided namespace='java.package' name='org.apache.commons.io.comparator' version='1.4.9999'/>
+        <provided namespace='java.package' name='org.apache.commons.io.filefilter' version='1.4.9999'/>
+        <provided namespace='java.package' name='org.apache.commons.io.input' version='1.4.9999'/>
+        <provided namespace='java.package' name='org.apache.commons.io.output' version='1.4.9999'/>
+        <provided namespace='java.package' name='org.apache.commons.io' version='2.4.0'/>
+        <provided namespace='java.package' name='org.apache.commons.io.comparator' version='2.4.0'/>
+        <provided namespace='java.package' name='org.apache.commons.io.filefilter' version='2.4.0'/>
+        <provided namespace='java.package' name='org.apache.commons.io.input' version='2.4.0'/>
+        <provided namespace='java.package' name='org.apache.commons.io.output' version='2.4.0'/>
+        <provided namespace='java.package' name='org.apache.commons.io.monitor' version='2.4.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.commons.io' version='2.4.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-Description: The Commons IO library contains utility classes, stream implementations, file filters, file comparators, endian transformation classes, and much more.&#xA;Build-Jdk: 1.6.0_31&#xA;Specification-Version: 2.4&#xA;Implementation-Build: tags/2.4-RC2@r1349569; 2012-06-12 18:18:20-0400&#xA;Export-Package: org.apache.commons.io;version=&quot;1.4.9999&quot;,org.apache.commons.io.comparator;version=&quot;1.4.9999&quot;,org.apache.commons.io.filefilter;version=&quot;1.4.9999&quot;,org.apache.commons.io.input;version=&quot;1.4.9999&quot;,org.apache.commons.io.output;version=&quot;1.4.9999&quot;,org.apache.commons.io;version=&quot;2.4&quot;,org.apache.commons.io.comparator;version=&quot;2.4&quot;,org.apache.commons.io.filefilter;version=&quot;2.4&quot;,org.apache.commons.io.input;version=&quot;2.4&quot;,org.apache.commons.io.output;version=&quot;2.4&quot;,org.apache.commons.io.monitor;version=&quot;2.4&quot;&#xA;Implementation-Title: Commons IO&#xA;Tool: Bnd-1.50.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt&#xA;Implementation-Vendor: The Apache Software Foundation&#xA;Include-Resource: META-INF/LICENSE.txt=LICENSE.txt,META-INF/NOTICE.txt=NOTICE.txt&#xA;Bundle-Name: Commons IO&#xA;Specification-Vendor: The Apache Software Foundation&#xA;Bundle-Version: 2.4.0&#xA;Manifest-Version: 1.0&#xA;X-Compile-Source-JDK: 1.6&#xA;X-Compile-Target-JDK: 1.6&#xA;Bnd-LastModified: 1339539506978&#xA;Bundle-DocURL: http://commons.apache.org/io/&#xA;Built-By: ggregory&#xA;Implementation-Vendor-Id: org.apache&#xA;Created-By: Apache Maven Bundle Plugin&#xA;Bundle-SymbolicName: org.apache.commons.io&#xA;Bundle-Vendor: The Apache Software Foundation&#xA;Specification-Title: Commons IO&#xA;Archiver-Version: Plexus Archiver&#xA;Implementation-Version: 2.4&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='log4j' version='1.2.17' singleton='false'>
+      <update id='log4j' range='[0.0.0,1.2.17)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Apache Log4j'/>
+        <property name='org.eclipse.equinox.p2.description' value='Apache Log4j 1.2'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Apache Software Foundation'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://logging.apache.org/log4j/1.2'/>
+      </properties>
+      <provides size='18'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='log4j' version='1.2.17'/>
+        <provided namespace='osgi.bundle' name='log4j' version='1.2.17'/>
+        <provided namespace='java.package' name='org.apache.log4j.net' version='1.2.17'/>
+        <provided namespace='java.package' name='org.apache.log4j.jmx' version='1.2.17'/>
+        <provided namespace='java.package' name='org.apache.log4j.jdbc' version='1.2.17'/>
+        <provided namespace='java.package' name='org.apache.log4j.config' version='1.2.17'/>
+        <provided namespace='java.package' name='org.apache.log4j.helpers' version='1.2.17'/>
+        <provided namespace='java.package' name='org.apache.log4j' version='1.2.17'/>
+        <provided namespace='java.package' name='org.apache.log4j.or.jms' version='1.2.17'/>
+        <provided namespace='java.package' name='org.apache.log4j.nt' version='1.2.17'/>
+        <provided namespace='java.package' name='org.apache.log4j.or.sax' version='1.2.17'/>
+        <provided namespace='java.package' name='org.apache.log4j.pattern' version='1.2.17'/>
+        <provided namespace='java.package' name='org.apache.log4j.spi' version='1.2.17'/>
+        <provided namespace='java.package' name='org.apache.log4j.rewrite' version='1.2.17'/>
+        <provided namespace='java.package' name='org.apache.log4j.or' version='1.2.17'/>
+        <provided namespace='java.package' name='org.apache.log4j.xml' version='1.2.17'/>
+        <provided namespace='java.package' name='org.apache.log4j.varia' version='1.2.17'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='10'>
+        <required namespace='java.package' name='javax.jmdns' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.jms' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.mail' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.mail.internet' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.management' range='0.0.0'/>
+        <required namespace='java.package' name='javax.naming' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.parsers' range='0.0.0'/>
+        <required namespace='java.package' name='org.w3c.dom' range='0.0.0'/>
+        <required namespace='java.package' name='org.xml.sax' range='0.0.0'/>
+        <required namespace='java.package' name='org.xml.sax.helpers' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='log4j' version='1.2.17'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-Version: 1.2.17&#xA;Bnd-LastModified: 1336303489100&#xA;Build-Jdk: 1.6.0_23&#xA;Export-Package: org.apache.log4j.net;uses:=&quot;org.apache.log4j,org.apache.log4j.spi,javax.naming,org.apache.log4j.helpers,javax.jms,org.apache.log4j.xml,javax.mail,javax.mail.internet,org.w3c.dom,javax.jmdns&quot;;version=&quot;1.2.17&quot;,org.apache.log4j.jmx;uses:=&quot;org.apache.log4j,javax.management,org.apache.log4j.helpers,org.apache.log4j.spi&quot;;version=&quot;1.2.17&quot;,org.apache.log4j.jdbc;uses:=&quot;org.apache.log4j,org.apache.log4j.spi&quot;;version=&quot;1.2.17&quot;,org.apache.log4j.config;uses:=&quot;org.apache.log4j.helpers,org.apache.log4j,org.apache.log4j.spi&quot;;version=&quot;1.2.17&quot;,org.apache.log4j.helpers;uses:=&quot;org.apache.log4j,org.apache.log4j.spi,org.apache.log4j.pattern&quot;;version=&quot;1.2.17&quot;,org.apache.log4j;uses:=&quot;org.apache.log4j.spi,org.apache.log4j.helpers,org.apache.log4j.pattern,org.apache.log4j.or,org.apache.log4j.config&quot;;version=&quot;1.2.17&quot;,org.apache.log4j.or.jms;uses:=&quot;org.apache.log4j.helpers,javax.jms,org.apache.log4j.or&quot;;version=&quot;1.2.17&quot;,org.apache.log4j.nt;uses:=&quot;org.apache.log4j.helpers,org.apache.log4j,org.apache.log4j.spi&quot;;version=&quot;1.2.17&quot;,org.apache.log4j.or.sax;uses:=&quot;org.apache.log4j.or,org.xml.sax&quot;;version=&quot;1.2.17&quot;,org.apache.log4j.pattern;uses:=&quot;org.apache.log4j.helpers,org.apache.log4j.spi,org.apache.log4j,org.apache.log4j.or&quot;;version=&quot;1.2.17&quot;,org.apache.log4j.spi;uses:=&quot;org.apache.log4j,org.apache.log4j.helpers,org.apache.log4j.or&quot;;version=&quot;1.2.17&quot;,org.apache.log4j.rewrite;uses:=&quot;org.apache.log4j,org.apache.log4j.spi,org.apache.log4j.helpers,org.apache.log4j.xml,org.w3c.dom&quot;;version=&quot;1.2.17&quot;,org.apache.log4j.or;uses:=&quot;org.apache.log4j.helpers,org.apache.log4j.spi,org.apache.log4j&quot;;version=&quot;1.2.17&quot;,org.apache.log4j.xml;uses:=&quot;javax.xml.parsers,org.w3c.dom,org.xml.sax,org.apache.log4j.config,org.apache.log4j.helpers,org.apache.log4j,org.apache.log4j.spi,org.apache.log4j.or&quot;;version=&quot;1.2.17&quot;,org.apache.log4j.varia;uses:=&quot;org.apache.log4j.spi,org.apache.log4j,org.apache.log4j.helpers&quot;;version=&quot;1.2.17&quot;&#xA;Import-Package: javax.jmdns;resolution:=optional,javax.jms;resolution:=optional,javax.mail;resolution:=optional,javax.mail.internet;resolution:=optional,javax.management,javax.naming,javax.xml.parsers,org.w3c.dom,org.xml.sax,org.xml.sax.helpers&#xA;Manifest-Version: 1.0&#xA;Bundle-DocURL: http://logging.apache.org/log4j/1.2&#xA;Ignore-Package: com.sun.jdmk.comm,javax.swing.text,javax.swing.border,javax.swing.tree,javax.swing,com.ibm.uvm.tools,javax.swing.table,javax.swing.event&#xA;Bundle-SymbolicName: log4j&#xA;Created-By: Apache Maven Bundle Plugin&#xA;Built-By: cy&#xA;Bundle-Description: Apache Log4j 1.2&#xA;Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt&#xA;Bundle-Vendor: Apache Software Foundation&#xA;Bundle-Name: Apache Log4j&#xA;Tool: Bnd-0.0.357&#xA;Bundle-ManifestVersion: 2&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='log4j.apache-log4j-extras' version='1.1.0' singleton='false'>
+      <update id='log4j.apache-log4j-extras' range='[0.0.0,1.1.0)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Apache Extras Companion™ for Apache log4j™.'/>
+        <property name='org.eclipse.equinox.p2.description' value='This companion provides additional appenders, filters and  other capabilities for version 1.2 of Apache log4j™.  Several of these were backported from  the abandoned Apache log4j 1.3 development effort.'/>
+        <property name='org.eclipse.equinox.p2.provider' value='The Apache Software Foundation'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://logging.apache.org/log4j/companions/extras/index.html'/>
+      </properties>
+      <provides size='8'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='log4j.apache-log4j-extras' version='1.1.0'/>
+        <provided namespace='osgi.bundle' name='log4j.apache-log4j-extras' version='1.1.0'/>
+        <provided namespace='java.package' name='org.apache.log4j.extras' version='1.1.0'/>
+        <provided namespace='java.package' name='org.apache.log4j.filter' version='1.1.0'/>
+        <provided namespace='java.package' name='org.apache.log4j.rolling' version='1.1.0'/>
+        <provided namespace='java.package' name='org.apache.log4j.rule' version='1.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='osgi.fragment' name='log4j' version='1.1.0'/>
+      </provides>
+      <requires size='15'>
+        <required namespace='osgi.bundle' name='log4j' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.parsers' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.transform' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.transform.dom' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.transform.sax' range='0.0.0'/>
+        <required namespace='java.package' name='javax.xml.transform.stream' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.log4j.config' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.log4j.extras' range='1.1.0'/>
+        <required namespace='java.package' name='org.apache.log4j.filter' range='1.1.0'/>
+        <required namespace='java.package' name='org.apache.log4j.or' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.log4j.rolling' range='1.1.0'/>
+        <required namespace='java.package' name='org.apache.log4j.rule' range='1.1.0'/>
+        <required namespace='java.package' name='org.w3c.dom' range='0.0.0'/>
+        <required namespace='java.package' name='org.xml.sax' range='0.0.0'/>
+        <required namespace='java.package' name='org.xml.sax.helpers' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='log4j.apache-log4j-extras' version='1.1.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Built-By: curta&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt&#xA;Bundle-Description: This companion provides additional appenders, filters and  other capabilities for version 1.2 of Apache log4j™.  Several of these were backported from  the abandoned Apache log4j 1.3 development effort.&#xA;Build-Jdk: 1.6.0_20&#xA;Fragment-Host: log4j&#xA;Created-By: Apache Maven Bundle Plugin&#xA;Manifest-Version: 1.0&#xA;Bundle-Vendor: The Apache Software Foundation&#xA;Ignore-Package: com.ibm.uvm.tools&#xA;Import-Package: javax.xml.parsers,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.sax,javax.xml.transform.stream,org.apache.log4j.config,org.apache.log4j.extras;version=&quot;1.1&quot;,org.apache.log4j.filter;version=&quot;1.1&quot;,org.apache.log4j.or,org.apache.log4j.rolling;version=&quot;1.1&quot;,org.apache.log4j.rule;version=&quot;1.1&quot;,org.w3c.dom,org.xml.sax,org.xml.sax.helpers&#xA;Bundle-DocURL: http://logging.apache.org/log4j/companions/extras/index.html&#xA;Bundle-Name: Apache Extras Companion™ for Apache log4j™.&#xA;Bundle-Version: 1.1.0&#xA;Export-Package: org.apache.log4j.extras;uses:=&quot;javax.xml.parsers,org.w3c.dom,org.xml.sax,org.apache.log4j.config,org.apache.log4j.or,javax.xml.transform.dom,javax.xml.transform,javax.xml.transform.stream,javax.xml.transform.sax,org.xml.sax.helpers&quot;;version=&quot;1.1&quot;,org.apache.log4j.filter;uses:=&quot;org.apache.log4j.extras,org.w3c.dom,org.apache.log4j.rule&quot;;version=&quot;1.1&quot;,org.apache.log4j.rolling;uses:=&quot;org.apache.log4j.extras,org.w3c.dom&quot;;version=&quot;1.1&quot;,org.apache.log4j.rule;version=&quot;1.1&quot;&#xA;Bundle-SymbolicName: log4j.apache-log4j-extras&#xA;Bnd-LastModified: 1289873720674&#xA;Tool: Bnd-0.0.357&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='slf4j.api' version='1.6.4' singleton='false'>
+      <update id='slf4j.api' range='[0.0.0,1.6.4)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='slf4j-api'/>
+        <property name='org.eclipse.equinox.p2.description' value='The slf4j API'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SLF4J.ORG'/>
+      </properties>
+      <provides size='6'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='slf4j.api' version='1.6.4'/>
+        <provided namespace='osgi.bundle' name='slf4j.api' version='1.6.4'/>
+        <provided namespace='java.package' name='org.slf4j' version='1.6.4'/>
+        <provided namespace='java.package' name='org.slf4j.spi' version='1.6.4'/>
+        <provided namespace='java.package' name='org.slf4j.helpers' version='1.6.4'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='java.package' name='org.slf4j.impl' range='1.6.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='slf4j.api' version='1.6.4'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Import-Package: org.slf4j.impl;version=1.6.0&#xA;Bundle-ManifestVersion: 2&#xA;Implementation-Title: slf4j-api&#xA;Implementation-Version: 1.6.4&#xA;Created-By: Apache Maven&#xA;Archiver-Version: Plexus Archiver&#xA;Manifest-Version: 1.0&#xA;Bundle-Name: slf4j-api&#xA;Bundle-Vendor: SLF4J.ORG&#xA;Build-Jdk: 1.6.0_16&#xA;Bundle-Description: The slf4j API&#xA;Bundle-Version: 1.6.4&#xA;Export-Package: org.slf4j;version=1.6.4, org.slf4j.spi;version=1.6.4, org.slf4j.helpers;version=1.6.4&#xA;Bundle-SymbolicName: slf4j.api&#xA;Built-By: ceki&#xA;Bundle-RequiredExecutionEnvironment: J2SE-1.3&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='slf4j.log4j12' version='1.6.0' singleton='false'>
+      <update id='slf4j.log4j12' range='[0.0.0,1.6.0)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='slf4j-log4j12'/>
+        <property name='org.eclipse.equinox.p2.description' value='The slf4j log4j-12 binding'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SLF4J.ORG'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='slf4j.log4j12' version='1.6.0'/>
+        <provided namespace='osgi.bundle' name='slf4j.log4j12' version='1.6.0'/>
+        <provided namespace='java.package' name='org.slf4j.impl' version='1.6.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='osgi.fragment' name='slf4j.api' version='1.6.0'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='osgi.bundle' name='slf4j.api' range='0.0.0'/>
+        <required namespace='java.package' name='org.slf4j' range='1.6.0'/>
+        <required namespace='java.package' name='org.slf4j.spi' range='1.6.0'/>
+        <required namespace='java.package' name='org.slf4j.helpers' range='1.6.0'/>
+        <required namespace='java.package' name='org.apache.log4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='slf4j.log4j12' version='1.6.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-Version: 1.6.0&#xA;Build-Jdk: 1.6.0_16&#xA;Implementation-Title: slf4j-log4j12&#xA;Export-Package: org.slf4j.impl;version=1.6.0&#xA;Import-Package: org.slf4j;version=1.6.0, org.slf4j.spi;version=1.6.0, org.slf4j.helpers;version=1.6.0, org.apache.log4j&#xA;Manifest-Version: 1.0&#xA;Fragment-Host: slf4j.api&#xA;Bundle-RequiredExecutionEnvironment: J2SE-1.3&#xA;Bundle-SymbolicName: slf4j.log4j12&#xA;Created-By: Apache Maven&#xA;Built-By: ceki&#xA;Implementation-Version: 1.6.0&#xA;Bundle-Description: The slf4j log4j-12 binding&#xA;Bundle-Vendor: SLF4J.ORG&#xA;Bundle-Name: slf4j-log4j12&#xA;Archiver-Version: Plexus Archiver&#xA;Bundle-ManifestVersion: 2&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='usb4java-javax' version='1.0.0' singleton='false'>
+      <update id='usb4java-javax' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='usb4java-javax'/>
+        <property name='org.eclipse.equinox.p2.description' value='javax.usb 1.0.2 API using usb4java'/>
+      </properties>
+      <provides size='6'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='usb4java-javax' version='1.0.0'/>
+        <provided namespace='osgi.bundle' name='usb4java-javax' version='1.0.0'/>
+        <provided namespace='java.package' name='javax.usb' version='1.0.2'/>
+        <provided namespace='java.package' name='javax.usb.event' version='1.0.2'/>
+        <provided namespace='java.package' name='javax.usb.util' version='1.0.2'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='java.package' name='javax.usb' range='[1.0.0,2.0.0)'/>
+        <required namespace='java.package' name='javax.usb.event' range='[1.0.0,2.0.0)'/>
+        <required namespace='java.package' name='javax.usb.util' range='[1.0.0,2.0.0)'/>
+        <required namespace='java.package' name='org.apache.commons.lang3.builder' range='0.0.0'/>
+        <required namespace='java.package' name='org.usb4java' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='usb4java-javax' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Embed-Dependency: javax.usb;groupId=javax.usb;artifactId=javax.usb;version=1.0.2;scope=runtime,org.usb4java.javax;groupId=usb4java-javax;artifactId=org.usb4java.javax;version=1.2.0;scope=system&#xA;Import-Package: javax.usb;version=&quot;[1.0,2)&quot;,javax.usb.event;version=&quot;[1.0,2)&quot;,javax.usb.util;version=&quot;[1.0,2)&quot;,org.apache.commons.lang3.builder,org.usb4java&#xA;Bundle-ManifestVersion: 2&#xA;Created-By: Apache Maven Bundle Plugin&#xA;Manifest-Version: 1&#xA;Tool: Bnd-1.43.0&#xA;Bundle-Name: usb4java-javax&#xA;Bnd-LastModified: 1445624690593&#xA;Bundle-ClassPath: .,usb4java-javax-1.2.0.jar&#xA;Build-Jdk: 1.7.0_45&#xA;Bundle-Description: javax.usb 1.0.2 API using usb4java&#xA;Bundle-Version: 1.0.0&#xA;Export-Package: javax.usb;uses:=&quot;javax.usb.event&quot;;version=&quot;1.0.2&quot;,javax.usb.event;uses:=&quot;javax.usb&quot;;version=&quot;1.0.2&quot;,javax.usb.util;uses:=&quot;javax.usb,javax.usb.event&quot;;version=&quot;1.0.2&quot;&#xA;Bundle-SymbolicName: usb4java-javax&#xA;Built-By: dwoodard&#xA;RELEASE_VERSION: 1.3.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.soda.dk.comm' version='1.2.1' singleton='false'>
+      <update id='org.eclipse.soda.dk.comm' range='[0.0.0,1.2.1)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='%bundle.name'/>
+        <property name='org.eclipse.equinox.p2.description' value='An implementation of the serialdevice.api, based on SODA DK comm'/>
+      </properties>
+      <provides size='7'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.soda.dk.comm' version='1.2.1'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.soda.dk.comm' version='1.2.1'/>
+        <provided namespace='java.package' name='javax.comm' version='1.2.0'/>
+        <provided namespace='java.package' name='org.eclipse.soda.dk.comm' version='1.2.0'/>
+        <provided namespace='java.package' name='org.eclipse.soda.dk.comm.bundle' version='1.2.0'/>
+        <provided namespace='java.package' name='org.eclipse.soda.dk.comm.internal' version='1.2.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='java.package' name='org.osgi.framework' range='[1.5.0,2.0.0)'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.soda.dk.comm' version='1.2.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Import-Package: org.osgi.framework;version=&quot;[1.5.0,2.0.0)&quot;&#xA;Bundle-ManifestVersion: 2&#xA;Created-By: Apache Maven Bundle Plugin&#xA;Manifest-Version: 1&#xA;Tool: Bnd-1.43.0&#xA;Bundle-Name: %bundle.name&#xA;Bnd-LastModified: 1445624691781&#xA;Build-Jdk: 1.7.0_45&#xA;Bundle-Description: An implementation of the serialdevice.api, based on SODA DK comm&#xA;Bundle-NativeCode: lib/linux/x86/libdkcomm.so; osname=Linux; processor=x86,lib/linux/x86_64/libdkcomm.so; osname=Linux; processor=x86-64,lib/linux/armv6_hf/libdkcomm.so; osname=Linux; processor=ARM; selection-filter=&quot;(&amp;(kura.arch=armv7_hf))&quot;,lib/linux/armv5_sf/libdkcomm.so; osname=Linux; processor=ARM; selection-filter=&quot;(&amp;(kura.arch=armv7_sf))&quot;,lib/linux/armv6_hf/libdkcomm.so; osname=Linux; processor=ARM; selection-filter=&quot;(&amp;(kura.arch=armv6_hf))&quot;,lib/linux/armv5_sf/libdkcomm.so; osname=Linux; processor=ARM; selection-filter=&quot;(&amp;(kura.arch=armv6_sf))&quot;,lib/linux/armv5_sf/libdkcomm.so; osname=Linux; processor=ARM; selection-filter=&quot;(&amp;(kura.arch=armv5_sf))&quot;,lib/mac/x86/libdkcomm.jnilib; osname=macosx; processor=x86_64,*&#xA;Bundle-Version: 1.2.1&#xA;Export-Package: javax.comm;uses:=&quot;org.eclipse.soda.dk.comm.internal,org.eclipse.soda.dk.comm&quot;;version=&quot;1.2.0&quot;,org.eclipse.soda.dk.comm;uses:=&quot;org.eclipse.soda.dk.comm.internal,javax.comm&quot;;version=&quot;1.2.0&quot;,org.eclipse.soda.dk.comm.bundle;uses:=&quot;org.osgi.framework&quot;;version=&quot;1.2.0&quot;,org.eclipse.soda.dk.comm.internal;version=&quot;1.2.0&quot;&#xA;Bundle-Activator: org.eclipse.soda.dk.comm.bundle.Activator&#xA;Bundle-SymbolicName: org.eclipse.soda.dk.comm&#xA;Built-By: dwoodard&#xA;RELEASE_VERSION: 1.3.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.tigris.mtoolkit.iagent.rpc' version='3.0.0.20110411-0918'>
+      <update id='org.tigris.mtoolkit.iagent.rpc' range='[0.0.0,3.0.0.20110411-0918)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='mToolkit Instrumentation Agent RPC Bundle'/>
+        <property name='org.eclipse.equinox.p2.description' value='Instrumentation Agent Remote API.'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Tigris.org'/>
+      </properties>
+      <provides size='16'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.tigris.mtoolkit.iagent.rpc' version='3.0.0.20110411-0918'/>
+        <provided namespace='osgi.bundle' name='org.tigris.mtoolkit.iagent.rpc' version='3.0.0.20110411-0918'/>
+        <provided namespace='java.package' name='org.tigris.mtoolkit.iagent' version='2.0.0'/>
+        <provided namespace='java.package' name='org.tigris.mtoolkit.iagent.event' version='1.0.0'/>
+        <provided namespace='java.package' name='org.tigris.mtoolkit.iagent.internal' version='1.0.0'/>
+        <provided namespace='java.package' name='org.tigris.mtoolkit.iagent.internal.mbsa' version='1.0.0'/>
+        <provided namespace='java.package' name='org.tigris.mtoolkit.iagent.internal.pmp' version='1.0.0'/>
+        <provided namespace='java.package' name='org.tigris.mtoolkit.iagent.internal.utils' version='1.1.0'/>
+        <provided namespace='java.package' name='org.tigris.mtoolkit.iagent.mbsa' version='1.0.0'/>
+        <provided namespace='java.package' name='org.tigris.mtoolkit.iagent.pmp' version='1.0.0'/>
+        <provided namespace='java.package' name='org.tigris.mtoolkit.iagent.rpc' version='2.0.0'/>
+        <provided namespace='java.package' name='org.tigris.mtoolkit.iagent.rpc.spi' version='1.0.0'/>
+        <provided namespace='java.package' name='org.tigris.mtoolkit.iagent.transport' version='1.0.0'/>
+        <provided namespace='java.package' name='org.tigris.mtoolkit.iagent.transport.socket' version='1.0.0'/>
+        <provided namespace='java.package' name='org.tigris.mtoolkit.iagent.util' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='16'>
+        <required namespace='java.package' name='org.osgi.service.event' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.osgi.service.deploymentadmin' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.osgi.service.application' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.osgi.service.log' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='com.prosyst.util.parser' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.eclipse.core.runtime.adaptor' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.eclipse.osgi.framework.console' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.eclipse.osgi.framework.internal.core' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.eclipse.osgi.framework.log' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.osgi.framework' range='1.3.0'/>
+        <required namespace='java.package' name='org.osgi.service.log' range='1.3.0' optional='true'/>
+        <required namespace='java.package' name='org.osgi.service.deploymentadmin' range='1.0.0' optional='true'/>
+        <required namespace='java.package' name='org.osgi.service.event' range='1.1.0' optional='true'/>
+        <required namespace='java.package' name='org.osgi.service.packageadmin' range='1.2.0'/>
+        <required namespace='java.package' name='org.osgi.service.startlevel' range='1.1.0'/>
+        <required namespace='java.package' name='org.osgi.util.tracker' range='1.3.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.tigris.mtoolkit.iagent.rpc' version='3.0.0.20110411-0918'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-RequiredExecutionEnvironment: J2SE-1.4,J2SE-1.3,OSGi/Minimum-1.1,CDC-1.1/Foundation-1.1&#xA;Bundle-Name: mToolkit Instrumentation Agent RPC Bundle&#xA;Bundle-Activator: org.tigris.mtoolkit.iagent.internal.rpc.Activator&#xA;Manifest-Version: 1.0&#xA;Bundle-Vendor: Tigris.org&#xA;Bundle-SymbolicName: org.tigris.mtoolkit.iagent.rpc;singleton:=true&#xA;Import-Package: com.prosyst.util.parser;resolution:=optional,org.eclipse.core.runtime.adaptor;resolution:=optional,org.eclipse.osgi.framework.console;resolution:=optional,org.eclipse.osgi.framework.internal.core;resolution:=optional,org.eclipse.osgi.framework.log;resolution:=optional,org.osgi.framework;version=&quot;1.3.0&quot;,org.osgi.service.log;version=&quot;1.3.0&quot;;resolution:=optional,org.osgi.service.deploymentadmin;version=&quot;1.0.0&quot;;resolution:=optional,org.osgi.service.event;version=&quot;1.1.0&quot;;resolution:=optional,org.osgi.service.packageadmin;version=&quot;1.2.0&quot;,org.osgi.service.startlevel;version=&quot;1.1.0&quot;,org.osgi.util.tracker;version=&quot;1.3.0&quot;&#xA;Bundle-ManifestVersion: 2&#xA;DynamicImport-Package: org.osgi.service.event,org.osgi.service.deploymentadmin,org.osgi.service.application,org.osgi.service.log&#xA;Bundle-Version: 3.0.0.20110411-0918&#xA;Bundle-Description: Instrumentation Agent Remote API.&#xA;Eclipse-ExtensibleAPI: true&#xA;Export-Package: org.tigris.mtoolkit.iagent;rpc=split;version=&quot;2.0.0&quot;;mandatory:=rpc,org.tigris.mtoolkit.iagent.event;version=&quot;1.0.0&quot;,org.tigris.mtoolkit.iagent.internal;version=&quot;1.0.0&quot;;x-internal:=true,org.tigris.mtoolkit.iagent.internal.mbsa;version=&quot;1.0.0&quot;;x-internal:=true,org.tigris.mtoolkit.iagent.internal.pmp;version=&quot;1.0.0&quot;;x-friends:=&quot;org.tigris.mtoolkit.iagent&quot;,org.tigris.mtoolkit.iagent.internal.utils;version=&quot;1.1.0&quot;;x-friends:=&quot;org.tigris.mtoolkit.iagent&quot;,org.tigris.mtoolkit.iagent.mbsa;version=&quot;1.0.0&quot;,org.tigris.mtoolkit.iagent.pmp;version=&quot;1.0.0&quot;,org.tigris.mtoolkit.iagent.rpc;version=&quot;2.0.0&quot;;x-friends:=&quot;org.tigris.mtoolkit.iagent&quot;,org.tigris.mtoolkit.iagent.rpc.spi;version=&quot;1.0.0&quot;,org.tigris.mtoolkit.iagent.transport;version=&quot;1.0.0&quot;,org.tigris.mtoolkit.iagent.transport.socket;version=&quot;1.0.0&quot;,org.tigris.mtoolkit.iagent.util;version=&quot;1.0.0&quot;&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.paho.client.mqttv3' version='1.0.1' singleton='false'>
+      <update id='org.eclipse.paho.client.mqttv3' range='[0.0.0,1.0.1)' severity='0'/>
+      <properties size='5'>
+        <property name='df_LT.bundle.provider' value='Eclipse.org - Paho'/>
+        <property name='df_LT.bundle.name' value='Paho MQTT Client'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundle.name'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundle.provider'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='bundle'/>
+      </properties>
+      <provides size='8'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.paho.client.mqttv3' version='1.0.1'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.paho.client.mqttv3' version='1.0.1'/>
+        <provided namespace='java.package' name='org.eclipse.paho.client.mqttv3' version='1.0.1'/>
+        <provided namespace='java.package' name='org.eclipse.paho.client.mqttv3.logging' version='1.0.1'/>
+        <provided namespace='java.package' name='org.eclipse.paho.client.mqttv3.persist' version='1.0.1'/>
+        <provided namespace='java.package' name='org.eclipse.paho.client.mqttv3.util' version='1.0.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='java.package' name='javax.net' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.net.ssl' range='0.0.0' optional='true'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.paho.client.mqttv3' version='1.0.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-ManifestVersion: 2&#xA;Bundle-RequiredExecutionEnvironment: J2SE-1.4&#xA;Bundle-ActivationPolicy: lazy&#xA;Bundle-Name: %bundle.name&#xA;Archiver-Version: Plexus Archiver&#xA;Build-Jdk: 1.6.0_45&#xA;Bundle-Vendor: %bundle.provider&#xA;Created-By: Apache Maven&#xA;Manifest-Version: 1.0&#xA;Bundle-Version: 1.0.1&#xA;Bundle-Localization: bundle&#xA;Built-By: genie.iot.paho&#xA;Export-Package: org.eclipse.paho.client.mqttv3;version=&quot;1.0.1&quot;,org.eclipse.paho.client.mqttv3.logging;version=&quot;1.0.1&quot;,org.eclipse.paho.client.mqttv3.persist;version=&quot;1.0.1&quot;,org.eclipse.paho.client.mqttv3.util;version=&quot;1.0.1&quot;&#xA;Bundle-SymbolicName: org.eclipse.paho.client.mqttv3&#xA;Import-Package: javax.net;resolution:=optional,javax.net.ssl;resolution:=optional&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.json' version='1.0.0.v201011060100' singleton='false'>
+      <update id='org.json' range='[0.0.0,1.0.0.v201011060100)' severity='0'/>
+      <properties size='5'>
+        <property name='df_LT.bundle.provider' value='Eclipse.org'/>
+        <property name='df_LT.bundle.name' value='JSON Implementation for Java'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundle.name'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundle.provider'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='bundle'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.json' version='1.0.0.v201011060100'/>
+        <provided namespace='osgi.bundle' name='org.json' version='1.0.0.v201011060100'/>
+        <provided namespace='java.package' name='org.json' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.json' version='1.0.0.v201011060100'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-ManifestVersion: 2&#xA;Bundle-Name: %bundle.name&#xA;Bundle-Version: 1.0.0.v201011060100&#xA;Export-Package: org.json&#xA;Bundle-RequiredExecutionEnvironment: CDC-1.1/Foundation-1.1,J2SE-1.4&#xA;Bundle-SymbolicName: org.json&#xA;Bundle-Localization: bundle&#xA;Manifest-Version: 1.0&#xA;Bundle-Vendor: %bundle.provider&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.google.protobuf' version='2.6.0' singleton='false'>
+      <update id='com.google.protobuf' range='[0.0.0,2.6.0)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Protocol Buffer Java API'/>
+        <property name='org.eclipse.equinox.p2.description' value='Protocol Buffers are a way of encoding structured data in an efficient yet    extensible format.'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Google'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://code.google.com/p/protobuf'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.google.protobuf' version='2.6.0'/>
+        <provided namespace='osgi.bundle' name='com.google.protobuf' version='2.6.0'/>
+        <provided namespace='java.package' name='com.google.protobuf' version='2.5.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.google.protobuf' version='2.6.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-ManifestVersion: 2&#xA;Bundle-Description: Protocol Buffers are a way of encoding structured data in an efficient yet    extensible format.&#xA;Bundle-Name: Protocol Buffer Java API&#xA;Build-Jdk: 1.7.0-google-v6&#xA;Tool: Bnd-1.50.0&#xA;Bundle-Vendor: Google&#xA;Created-By: Apache Maven Bundle Plugin&#xA;Manifest-Version: 1.0&#xA;Bundle-Version: 2.6.0&#xA;Bnd-LastModified: 1409706734058&#xA;Bundle-DocURL: http://code.google.com/p/protobuf&#xA;Bundle-License: http://www.opensource.org/licenses/bsd-license.php&#xA;Built-By: xiaofeng&#xA;Export-Package: com.google.protobuf;version=&quot;2.5.0&quot;&#xA;Bundle-SymbolicName: com.google.protobuf&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.hsqldb.hsqldb' version='2.3.0' singleton='false'>
+      <update id='org.hsqldb.hsqldb' range='[0.0.0,2.3.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='HSQLDB'/>
+        <property name='org.eclipse.equinox.p2.description' value='HyperSQL Lightweight 100% Java SQL Database Engine'/>
+      </properties>
+      <provides size='26'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.hsqldb.hsqldb' version='2.3.0'/>
+        <provided namespace='osgi.bundle' name='org.hsqldb.hsqldb' version='2.3.0'/>
+        <provided namespace='java.package' name='org.hsqldb' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.auth' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.dbinfo' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.error' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.index' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.jdbc' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.jdbc.pool' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.lib' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.lib.java' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.lib.tar' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.lib.tar.rb' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.map' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.navigator' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.persist' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.resources' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.result' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.rights' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.rowio' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.sample' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.scriptio' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.server' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.types' version='0.0.0'/>
+        <provided namespace='java.package' name='org.hsqldb.util' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='55'>
+        <required namespace='java.package' name='javax.crypto' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.crypto.spec' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.naming' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.naming.directory' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.naming.ldap' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.naming.spi' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.net' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.net.ssl' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.security.auth' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.security.auth.callback' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.security.auth.login' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.security.cert' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.servlet' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.servlet.http' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.sql' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.swing' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.swing.border' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.swing.event' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.swing.table' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.swing.tree' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.transaction.xa' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.xml.bind.util' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.xml.parsers' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.xml.stream' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.xml.transform' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.xml.transform.dom' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.xml.transform.sax' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.xml.transform.stax' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='javax.xml.transform.stream' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.auth' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.dbinfo' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.error' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.index' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.jdbc' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.jdbc.pool' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.lib' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.lib.java' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.lib.tar' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.lib.tar.rb' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.map' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.navigator' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.persist' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.resources' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.result' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.rights' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.rowio' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.sample' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.scriptio' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.server' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.types' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.hsqldb.util' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.w3c.dom' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.w3c.dom.bootstrap' range='0.0.0' optional='true'/>
+        <required namespace='java.package' name='org.xml.sax' range='0.0.0' optional='true'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.hsqldb.hsqldb' version='2.3.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Implementation-Version: 2.3.0&#xA;Import-Package: javax.crypto;resolution:=optional,javax.crypto.spec;resolution:=optional,javax.naming;resolution:=optional,javax.naming.directory;resolution:=optional,javax.naming.ldap;resolution:=optional,javax.naming.spi;resolution:=optional,javax.net;resolution:=optional,javax.net.ssl;resolution:=optional,javax.security.auth;resolution:=optional,javax.security.auth.callback;resolution:=optional,javax.security.auth.login;resolution:=optional,javax.security.cert;resolution:=optional,javax.servlet;resolution:=optional,javax.servlet.http;resolution:=optional,javax.sql;resolution:=optional,javax.swing;resolution:=optional,javax.swing.border;resolution:=optional,javax.swing.event;resolution:=optional,javax.swing.table;resolution:=optional,javax.swing.tree;resolution:=optional,javax.transaction.xa;resolution:=optional,javax.xml.bind.util;resolution:=optional,javax.xml.parsers;resolution:=optional,javax.xml.stream;resolution:=optional,javax.xml.transform;resolution:=optional,javax.xml.transform.dom;resolution:=optional,javax.xml.transform.sax;resolution:=optional,javax.xml.transform.stax;resolution:=optional,javax.xml.transform.stream;resolution:=optional,org.hsqldb;resolution:=optional,org.hsqldb.auth;resolution:=optional,org.hsqldb.dbinfo;resolution:=optional,org.hsqldb.error;resolution:=optional,org.hsqldb.index;resolution:=optional,org.hsqldb.jdbc;resolution:=optional,org.hsqldb.jdbc.pool;resolution:=optional,org.hsqldb.lib;resolution:=optional,org.hsqldb.lib.java;resolution:=optional,org.hsqldb.lib.tar;resolution:=optional,org.hsqldb.lib.tar.rb;resolution:=optional,org.hsqldb.map;resolution:=optional,org.hsqldb.navigator;resolution:=optional,org.hsqldb.persist;resolution:=optional,org.hsqldb.resources;resolution:=optional,org.hsqldb.result;resolution:=optional,org.hsqldb.rights;resolution:=optional,org.hsqldb.rowio;resolution:=optional,org.hsqldb.sample;resolution:=optional,org.hsqldb.scriptio;resolution:=optional,org.hsqldb.server;resolution:=optional,org.hsqldb.types;resolution:=optional,org.hsqldb.util;resolution:=optional,org.w3c.dom;resolution:=optional,org.w3c.dom.bootstrap;resolution:=optional,org.xml.sax;resolution:=optional&#xA;Specification-Version: 2.3.0&#xA;Bundle-Description: HyperSQL Lightweight 100% Java SQL Database Engine&#xA;Specification-Title: HSQLDB&#xA;Main-Class: org.hsqldb.util.DatabaseManagerSwing&#xA;Originally-Created-By: 1.6.0_30-b12 (Sun Microsystems Inc.)&#xA;Export-Package: org.hsqldb;uses:=&quot;org.hsqldb.server,org.hsqldb.jdbc,org.hsqldb.types,org.hsqldb.rowio,org.hsqldb.result,org.hsqldb.persist,org.hsqldb.error,org.hsqldb.navigator,org.hsqldb.map,org.hsqldb.lib,org.hsqldb.rights,org.hsqldb.index,org.hsqldb.dbinfo,org.hsqldb.lib.java,org.hsqldb.scriptio&quot;,org.hsqldb.auth;uses:=&quot;org.hsqldb.jdbc,org.hsqldb.types,org.hsqldb.lib,javax.security.auth.callback,javax.security.auth.login,javax.security.auth,javax.naming.directory,javax.naming,javax.naming.ldap,javax.net.ssl&quot;,org.hsqldb.dbinfo;uses:=&quot;org.hsqldb.rights,org.hsqldb.resources,org.hsqldb,org.hsqldb.map,org.hsqldb.persist,org.hsqldb.lib,org.hsqldb.types,org.hsqldb.result,org.hsqldb.index&quot;,org.hsqldb.error;uses:=&quot;org.hsqldb.resources,org.hsqldb,org.hsqldb.result,org.hsqldb.lib&quot;,org.hsqldb.index;uses:=&quot;org.hsqldb.persist,org.hsqldb.types,org.hsqldb,org.hsqldb.navigator,org.hsqldb.rights,org.hsqldb.error,org.hsqldb.lib,org.hsqldb.rowio&quot;,org.hsqldb.jdbc;uses:=&quot;org.hsqldb.types,org.hsqldb,org.hsqldb.navigator,org.hsqldb.result,org.hsqldb.lib.java,org.hsqldb.lib,org.hsqldb.error,javax.sql,org.hsqldb.persist,javax.naming,javax.naming.spi,org.hsqldb.jdbc.pool,javax.xml.parsers,org.w3c.dom,org.xml.sax,javax.xml.stream,javax.xml.transform.stax,javax.xml.transform.dom,org.w3c.dom.bootstrap,javax.xml.transform,javax.xml.bind.util,javax.xml.transform.stream,javax.xml.transform.sax&quot;,org.hsqldb.jdbc.pool;uses:=&quot;javax.sql,org.hsqldb.jdbc,org.hsqldb.lib,javax.naming,javax.transaction.xa,org.hsqldb,org.hsqldb.error&quot;,org.hsqldb.lib;uses:=&quot;org.hsqldb.lib.java,org.hsqldb.map,org.hsqldb&quot;,org.hsqldb.lib.java,org.hsqldb.lib.tar;uses:=&quot;org.hsqldb.lib&quot;,org.hsqldb.lib.tar.rb,org.hsqldb.map;uses:=&quot;org.hsqldb.lib,org.hsqldb.types&quot;,org.hsqldb.navigator;uses:=&quot;org.hsqldb,org.hsqldb.error,org.hsqldb.rowio,org.hsqldb.result,org.hsqldb.types,org.hsqldb.lib,org.hsqldb.index,org.hsqldb.persist&quot;,org.hsqldb.persist;uses:=&quot;org.hsqldb,org.hsqldb.error,org.hsqldb.map,org.hsqldb.rowio,org.hsqldb.lib,javax.crypto.spec,javax.crypto,org.hsqldb.scriptio,org.hsqldb.types,org.hsqldb.result,org.hsqldb.navigator,org.hsqldb.index,org.hsqldb.lib.tar,org.hsqldb.dbinfo,org.hsqldb.lib.java&quot;,org.hsqldb.resources;uses:=&quot;org.hsqldb.lib&quot;,org.hsqldb.result;uses:=&quot;org.hsqldb.persist,org.hsqldb.types,org.hsqldb.error,org.hsqldb,org.hsqldb.navigator,org.hsqldb.map,org.hsqldb.rowio,org.hsqldb.lib&quot;,org.hsqldb.rights;uses:=&quot;org.hsqldb.types,org.hsqldb.error,org.hsqldb,org.hsqldb.lib,org.hsqldb.result&quot;,org.hsqldb.rowio;uses:=&quot;org.hsqldb.types,org.hsqldb.error,org.hsqldb,org.hsqldb.lib,org.hsqldb.map,org.hsqldb.persist&quot;,org.hsqldb.sample,org.hsqldb.scriptio;uses:=&quot;org.hsqldb.persist,org.hsqldb,org.hsqldb.error,org.hsqldb.rowio,org.hsqldb.lib,org.hsqldb.types,org.hsqldb.map,org.hsqldb.result,org.hsqldb.navigator&quot;,org.hsqldb.server;uses:=&quot;org.hsqldb.persist,org.hsqldb.jdbc,org.hsqldb.error,org.hsqldb,javax.net,javax.security.cert,javax.net.ssl,org.hsqldb.lib,org.hsqldb.types,org.hsqldb.result,org.hsqldb.resources,org.hsqldb.lib.java,org.hsqldb.map,org.hsqldb.rowio,org.hsqldb.navigator,javax.servlet,javax.servlet.http&quot;,org.hsqldb.types;uses:=&quot;org.hsqldb.jdbc,org.hsqldb.error,org.hsqldb,org.hsqldb.lib,org.hsqldb.map,org.hsqldb.result,org.hsqldb.lib.java,org.hsqldb.persist,org.hsqldb.rights&quot;,org.hsqldb.util;uses:=&quot;javax.swing,javax.swing.border,org.hsqldb.lib.java,org.hsqldb.lib,javax.swing.tree,javax.swing.table,javax.swing.event&quot;&#xA;Bundle-Name: HSQLDB&#xA;Bundle-Version: 2.3.0&#xA;Ant-Version: Apache Ant 1.8.4&#xA;Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Created-By: 1.6.0_30 (Sun Microsystems Inc.)&#xA;Implementation-Vendor: The HSQL Development Group&#xA;Implementation-Title: Standard runtime&#xA;Tool: Bnd-0.0.384&#xA;Bundle-SymbolicName: org.hsqldb.hsqldb&#xA;Specification-Vendor: The HSQL Development Group&#xA;Build-Vendor: blaine&#xA;Bnd-LastModified: 1374156968621&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.commons.fileupload' version='1.2.2.v20111214-1400' singleton='false'>
+      <update id='org.apache.commons.fileupload' range='[0.0.0,1.2.2.v20111214-1400)' severity='0'/>
+      <properties size='5'>
+        <property name='df_LT.providerName' value='Eclipse.org'/>
+        <property name='df_LT.pluginName' value='Apache Commons FileUpload'/>
+        <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='9'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.fileupload' version='1.2.2.v20111214-1400'/>
+        <provided namespace='osgi.bundle' name='org.apache.commons.fileupload' version='1.2.2.v20111214-1400'/>
+        <provided namespace='java.package' name='org.apache.commons.fileupload' version='1.2.2'/>
+        <provided namespace='java.package' name='org.apache.commons.fileupload.disk' version='1.2.2'/>
+        <provided namespace='java.package' name='org.apache.commons.fileupload.portlet' version='1.2.2'/>
+        <provided namespace='java.package' name='org.apache.commons.fileupload.servlet' version='1.2.2'/>
+        <provided namespace='java.package' name='org.apache.commons.fileupload.util' version='1.2.2'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='4'>
+        <required namespace='java.package' name='javax.servlet' range='2.3.0'/>
+        <required namespace='java.package' name='javax.servlet.http' range='2.3.0'/>
+        <required namespace='java.package' name='org.apache.commons.io' range='1.3.0'/>
+        <required namespace='java.package' name='org.apache.commons.io.output' range='1.3.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.commons.fileupload' version='1.2.2.v20111214-1400'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-Vendor: %providerName&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-RequiredExecutionEnvironment: J2SE-1.3&#xA;Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/tools:org.eclipse.orbit/org.apache.commons.fileupload;tag=v20111214-1400&#xA;Import-Package: javax.servlet;version=&quot;2.3.0&quot;,javax.servlet.http;version=&quot;2.3.0&quot;,org.apache.commons.io;version=&quot;1.3.0&quot;,org.apache.commons.io.output;version=&quot;1.3.0&quot;&#xA;Bundle-Name: %pluginName&#xA;Bundle-Localization: plugin&#xA;Manifest-Version: 1.0&#xA;Bundle-SymbolicName: org.apache.commons.fileupload&#xA;Bundle-Version: 1.2.2.v20111214-1400&#xA;Export-Package: org.apache.commons.fileupload;version=&quot;1.2.2&quot;,org.apache.commons.fileupload.disk;version=&quot;1.2.2&quot;,org.apache.commons.fileupload.portlet;version=&quot;1.2.2&quot;,org.apache.commons.fileupload.servlet;version=&quot;1.2.2&quot;,org.apache.commons.fileupload.util;version=&quot;1.2.2&quot;&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.hamcrest.core' version='1.1.0.v20090501071000' singleton='false'>
+      <update id='org.hamcrest.core' range='[0.0.0,1.1.0.v20090501071000)' severity='0'/>
+      <properties size='5'>
+        <property name='df_LT.providerName' value='Eclipse.org'/>
+        <property name='df_LT.pluginName' value='Hamcrest Core Library of Matchers'/>
+        <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='7'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.hamcrest.core' version='1.1.0.v20090501071000'/>
+        <provided namespace='osgi.bundle' name='org.hamcrest.core' version='1.1.0.v20090501071000'/>
+        <provided namespace='java.package' name='org.hamcrest' version='1.1.0'/>
+        <provided namespace='java.package' name='org.hamcrest.core' version='1.1.0'/>
+        <provided namespace='java.package' name='org.hamcrest.internal' version='1.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.hamcrest.core' version='1.1.0.v20090501071000'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-ManifestVersion: 2&#xA;Bundle-RequiredExecutionEnvironment: J2SE-1.5&#xA;Manifest-Version: 1.0&#xA;Bundle-Version: 1.1.0.v20090501071000&#xA;Export-Package: org.hamcrest;version=&quot;1.1.0&quot;;core=split;mandatory:=core,org.hamcrest.core;version=&quot;1.1.0&quot;,org.hamcrest.internal;version=&quot;1.1.0&quot;;x-internal:=true&#xA;Bundle-SymbolicName: org.hamcrest.core&#xA;Bundle-Localization: plugin&#xA;Bundle-ActivationPolicy: lazy&#xA;Bundle-Name: %pluginName&#xA;Bundle-Vendor: %providerName&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.commons.net' version='3.1.0.v201205071737' singleton='false'>
+      <update id='org.apache.commons.net' range='[0.0.0,3.1.0.v201205071737)' severity='0'/>
+      <properties size='7'>
+        <property name='df_LT.providerName' value='Eclipse Orbit'/>
+        <property name='df_LT.pluginName' value='Apache Commons Net'/>
+        <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+        <property name='org.eclipse.equinox.p2.description' value='Apache Commons Net library contains a collection of network utilities and protocol implementations.Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Telnet, Whois'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://commons.apache.org/net/'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='24'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.net' version='3.1.0.v201205071737'/>
+        <provided namespace='osgi.bundle' name='org.apache.commons.net' version='3.1.0.v201205071737'/>
+        <provided namespace='java.package' name='org.apache.commons.net.finger' version='3.1.0'/>
+        <provided namespace='java.package' name='org.apache.commons.net.imap' version='3.1.0'/>
+        <provided namespace='java.package' name='org.apache.commons.net.echo' version='3.1.0'/>
+        <provided namespace='java.package' name='org.apache.commons.net.ntp' version='3.1.0'/>
+        <provided namespace='java.package' name='org.apache.commons.net.io' version='3.1.0'/>
+        <provided namespace='java.package' name='org.apache.commons.net.discard' version='3.1.0'/>
+        <provided namespace='java.package' name='org.apache.commons.net.ftp' version='3.1.0'/>
+        <provided namespace='java.package' name='org.apache.commons.net.smtp' version='3.1.0'/>
+        <provided namespace='java.package' name='org.apache.commons.net' version='3.1.0'/>
+        <provided namespace='java.package' name='org.apache.commons.net.pop3' version='3.1.0'/>
+        <provided namespace='java.package' name='org.apache.commons.net.util' version='3.1.0'/>
+        <provided namespace='java.package' name='org.apache.commons.net.telnet' version='3.1.0'/>
+        <provided namespace='java.package' name='org.apache.commons.net.whois' version='3.1.0'/>
+        <provided namespace='java.package' name='org.apache.commons.net.chargen' version='3.1.0'/>
+        <provided namespace='java.package' name='org.apache.commons.net.nntp' version='3.1.0'/>
+        <provided namespace='java.package' name='org.apache.commons.net.bsd' version='3.1.0'/>
+        <provided namespace='java.package' name='org.apache.commons.net.ftp.parser' version='3.1.0'/>
+        <provided namespace='java.package' name='org.apache.commons.net.daytime' version='3.1.0'/>
+        <provided namespace='java.package' name='org.apache.commons.net.time' version='3.1.0'/>
+        <provided namespace='java.package' name='org.apache.commons.net.tftp' version='3.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='4'>
+        <required namespace='java.package' name='javax.crypto' range='0.0.0'/>
+        <required namespace='java.package' name='javax.crypto.spec' range='0.0.0'/>
+        <required namespace='java.package' name='javax.net' range='0.0.0'/>
+        <required namespace='java.package' name='javax.net.ssl' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.commons.net' version='3.1.0.v201205071737'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-ManifestVersion: 2&#xA;Bundle-RequiredExecutionEnvironment: J2SE-1.5&#xA;Bundle-Description: Apache Commons Net library contains a collection of network utilities and protocol implementations.Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Telnet, Whois&#xA;Archiver-Version: Plexus Archiver&#xA;Build-Jdk: 1.6.0_29&#xA;Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/tools:org.eclipse.orbit/org.apache.commons.net;tag=v201205071737&#xA;Implementation-Version: 3.1&#xA;Implementation-Title: Commons Net&#xA;Bundle-DocURL: http://commons.apache.org/net/&#xA;X-Compile-Target-JDK: 1.5&#xA;Built-By: sebb&#xA;Specification-Version: 3.1&#xA;Export-Package: org.apache.commons.net.finger;version=&quot;3.1&quot;,org.apache.commons.net.imap;version=&quot;3.1&quot;,org.apache.commons.net.echo;version=&quot;3.1&quot;,org.apache.commons.net.ntp;version=&quot;3.1&quot;,org.apache.commons.net.io;version=&quot;3.1&quot;,org.apache.commons.net.discard;version=&quot;3.1&quot;,org.apache.commons.net.ftp;version=&quot;3.1&quot;,org.apache.commons.net.smtp;version=&quot;3.1&quot;,org.apache.commons.net;version=&quot;3.1&quot;,org.apache.commons.net.pop3;version=&quot;3.1&quot;,org.apache.commons.net.util;version=&quot;3.1&quot;,org.apache.commons.net.telnet;version=&quot;3.1&quot;,org.apache.commons.net.whois;version=&quot;3.1&quot;,org.apache.commons.net.chargen;version=&quot;3.1&quot;,org.apache.commons.net.nntp;version=&quot;3.1&quot;,org.apache.commons.net.bsd;version=&quot;3.1&quot;,org.apache.commons.net.ftp.parser;version=&quot;3.1&quot;,org.apache.commons.net.daytime;version=&quot;3.1&quot;,org.apache.commons.net.time;version=&quot;3.1&quot;,org.apache.commons.net.tftp;version=&quot;3.1&quot;&#xA;Bundle-SymbolicName: org.apache.commons.net&#xA;Import-Package: javax.crypto,javax.crypto.spec,javax.net,javax.net.ssl&#xA;Implementation-Build: tags/NET_3_1_RC2@r1244108; 2012-02-14 17:45:12+0000&#xA;Bundle-Name: %pluginName&#xA;Specification-Title: Commons Net&#xA;Tool: Bnd-1.43.0&#xA;Bundle-Vendor: %providerName&#xA;X-Compile-Source-JDK: 1.5&#xA;Created-By: Apache Maven Bundle Plugin&#xA;Manifest-Version: 1.0&#xA;Bundle-Version: 3.1.0.v201205071737&#xA;Bnd-LastModified: 1329241523937&#xA;Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt&#xA;Bundle-Localization: plugin&#xA;Implementation-Vendor: The Apache Software Foundation&#xA;Specification-Vendor: The Apache Software Foundation&#xA;Implementation-Vendor-Id: org.apache&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+  </units>
+</repository>

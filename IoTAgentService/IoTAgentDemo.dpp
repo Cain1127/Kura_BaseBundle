@@ -1,0 +1,27 @@
+#Deployment Plugin Project File
+#Mon Jan 25 22:59:23 CST 2016
+build.ant.name=<.>/IoTAgentDemo_build.xml
+build.dp.file=<.>/IoTAgentDemo.dp
+build.location=
+bundles.0.bundle_path=/Users/wujinxin/IoTProjects/KuraWorkspace/HelloKuraWorkspace/IoTAgentApp/output/plugins/com.accenture.iot.cdclib_1.0.0.stephendu.jar
+bundles.0.customizer=false
+bundles.0.headers.count=0
+bundles.0.missing=false
+bundles.0.name=bundles/com.accenture.iot.cdclib_1.0.0.stephendu.jar
+bundles.0.symbolic_name=com.accenture.iot.cdclib
+bundles.0.version=1.0.0.stephendu
+bundles.1.bundle_path=/Users/wujinxin/IoTProjects/KuraWorkspace/HelloKuraWorkspace/IoTAgentApp/output/plugins/com.accenture.iot.cdcagentapp_1.0.0.stephendu.jar
+bundles.1.customizer=false
+bundles.1.headers.count=0
+bundles.1.missing=false
+bundles.1.name=bundles/com.accenture.iot.cdcagentapp_1.0.0.stephendu.jar
+bundles.1.symbolic_name=com.accenture.iot.cdcagentapp
+bundles.1.version=1.0.0.stephendu
+bundles.count=2
+certificates.count=0
+general.signbundles=false
+headers.other.headers=
+headers.symbolic.name=IoTAgentDemo
+headers.version=1.0.0
+resources.count=0
+

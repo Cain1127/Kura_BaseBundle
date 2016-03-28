@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="IoTAgentService" modificationStamp="838" version="1.2">
+    <package visibility="1">
+        <fragment handle="=IoTAgentService/src&lt;com.accenture.iot.agent.service"/>
+        <type handle="=IoTAgentService/src&lt;com.accenture.iot.agent.service{HttpListener.java[HttpListener" modificationStamp="860" restrictions="0" visibility="0"/>
+        <type handle="=IoTAgentService/src&lt;com.accenture.iot.agent.service{IIotAgentService.java[IIotAgentService" modificationStamp="862" restrictions="0" visibility="0"/>
+        <type handle="=IoTAgentService/src&lt;com.accenture.iot.agent.service{RestfulClient.java[RestfulClient" modificationStamp="866" restrictions="0" visibility="0"/>
+        <type handle="=IoTAgentService/src&lt;com.accenture.iot.agent.service{IHttpListener.java[IHttpListener" modificationStamp="861" restrictions="0" visibility="0"/>
+        <type handle="=IoTAgentService/src&lt;com.accenture.iot.agent.service{IotAgentServiceImp.java[IotAgentServiceImp" modificationStamp="939" restrictions="0" visibility="0"/>
+    </package>
+</component>

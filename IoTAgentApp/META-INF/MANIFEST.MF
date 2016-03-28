@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Agent app developed by CDC-ShangHai
+Bundle-SymbolicName: com.accenture.iot.cdcagentapp
+Bundle-Version: 1.0.0.stephendu
+Bundle-Activator: com.accenture.iot.app.Activator
+Bundle-Vendor: ACCENTURE-ShangHai-CDC
+Bundle-RequiredExecutionEnvironment: OSGi/Minimum-1.2,
+ JavaSE-1.7
+Import-Package: com.accenture.iot.agent.service,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Require-Bundle: com.accenture.iot.cdclib;bundle-version="1.0.0"

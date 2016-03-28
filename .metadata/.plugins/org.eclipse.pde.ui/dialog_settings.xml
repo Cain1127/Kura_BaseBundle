@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="true" key="generateActivator"/>
+	<item value="" key="targetName"/>
+	<item value="false" key="apiAnalysis"/>
+	<item value="false" key="rcpPlugin"/>
+	<item value="true" key="osgiProject"/>
+	<section name="exportTargetDefinitionWizard">
+	</section>
+	<section name="PDEFormActionManager">
+	</section>
+	<section name="pde_compiler_errorwarnings_block">
+		<item value="true" key="0"/>
+		<item value="false" key="1"/>
+		<item value="false" key="2"/>
+		<item value="false" key="3"/>
+		<item value="false" key="4"/>
+	</section>
+	<section name="org.eclipse.pde.ui.dialogs.PluginSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="462" key="DIALOG_X_ORIGIN"/>
+			<item value="76" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+	<section name="PluginExportWizard">
+		<item value="/Users/apple/Develop/IoT/Kura/TestPrintlnDemo/" key="destination0"/>
+		<item value="/Users/apple/Develop/IoT/Kura/TestPrintlnDemo/" key="destination1"/>
+		<item value="" key="keypass"/>
+		<item value="/Users/apple/Develop/IoT/Kura/IoTAgentApp/exportJAR" key="destination4"/>
+		<item value="Generate source bundles" key="exportSourceFormat"/>
+		<item value="false" key="signJAR"/>
+		<item value="/Users/apple/Develop/IoT/Kura/TestPrintlnDemo/exportJAR" key="destination2"/>
+		<item value="/Users/apple/Develop/IoT/Kura/HelloworldKura/exportJAR" key="destination3"/>
+		<item value="true" key="exportUpdate"/>
+		<item value="false" key="saveAsAnt"/>
+		<item value="false" key="exportSource"/>
+		<item value="true" key="allowBinaryCycles"/>
+		<item value="" key="password"/>
+		<item value="201602050012" key="qualifierName"/>
+		<item value="false" key="useWorkspaceCompiledClasses"/>
+		<item value="1" key="exportType"/>
+		<item value="false" key="qualifier"/>
+		<item value="" key="alias"/>
+		<item value="" key="keystore"/>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="targetStateView">
+	</section>
+	<section name="editBundleContainerWizard">
+		<item value="/Users/apple/Develop/IoT/Kura/user_workspace_archive_1.3.0/target-definition/common/repository/plugins" key="location1"/>
+		<item value="/Users/apple/Develop/IoT/Kura/user_workspace_archive_1.3.0/target-definition/equinox_3.8.1/repository/plugins" key="location2"/>
+	</section>
+	<section name="pluginsView">
+	</section>
+</section>

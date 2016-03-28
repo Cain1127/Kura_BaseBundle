@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 5 resources" deleteContents="true" description="Delete 5 resources" element1="/google-play-services_lib" element2="/library" element3="/mtrtt" element4="/mylibrary" element5="/SqliteSimpleLib" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="5" stamp="1456414211534"/>
+</session>

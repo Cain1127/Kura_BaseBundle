@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="com.accenture.libs.jackson" modificationStamp="25551" version="1.2">
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.exc"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.exc(UnrecognizedPropertyException.class[UnrecognizedPropertyException" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.exc(IgnoredPropertyException.class[IgnoredPropertyException" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-annotations-2.4.0.jar&lt;com.fasterxml.jackson.annotation"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-annotations-2.4.0.jar&lt;com.fasterxml.jackson.annotation(ObjectIdGenerators.class[ObjectIdGenerators" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-annotations-2.4.0.jar&lt;com.fasterxml.jackson.annotation(ObjectIdResolver.class[ObjectIdResolver" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-annotations-2.4.0.jar&lt;com.fasterxml.jackson.annotation(JsonFormat.class[JsonFormat" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-annotations-2.4.0.jar&lt;com.fasterxml.jackson.annotation(SimpleObjectIdResolver.class[SimpleObjectIdResolver" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.json"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.json(JsonWriteContext.class[JsonWriteContext" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.json(ReaderBasedJsonParser.class[ReaderBasedJsonParser" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.json(ByteSourceJsonBootstrapper.class[ByteSourceJsonBootstrapper" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.json(WriterBasedJsonGenerator.class[WriterBasedJsonGenerator" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.json(UTF8StreamJsonParser.class[UTF8StreamJsonParser" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.json(UTF8JsonGenerator.class[UTF8JsonGenerator" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.json(JsonGeneratorImpl.class[JsonGeneratorImpl" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.json(JsonReadContext.class[JsonReadContext" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core(TreeNode.class[TreeNode" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core(TreeCodec.class[TreeCodec" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core(JsonParser.class[JsonParser" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core(JsonGenerator.class[JsonGenerator" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core(Versioned.class[Versioned" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core(JsonProcessingException.class[JsonProcessingException" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core(ObjectCodec.class[ObjectCodec" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core(Base64Variant.class[Base64Variant" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core(Base64Variants.class[Base64Variants" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core(JsonFactory.class[JsonFactory" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core(JsonGenerationException.class[JsonGenerationException" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core(PrettyPrinter.class[PrettyPrinter" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core(JsonParseException.class[JsonParseException" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype(SubtypeResolver.class[SubtypeResolver" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype(TypeDeserializer.class[TypeDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype(TypeResolverBuilder.class[TypeResolverBuilder" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype(TypeSerializer.class[TypeSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.module"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.module(SimpleSerializers.class[SimpleSerializers" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.module(SimpleModule.class[SimpleModule" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.module(SimpleKeyDeserializers.class[SimpleKeyDeserializers" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.module(SimpleDeserializers.class[SimpleDeserializers" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.module(SimpleValueInstantiators.class[SimpleValueInstantiators" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(NumericNode.class[NumericNode" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(FloatNode.class[FloatNode" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(IntNode.class[IntNode" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(NodeCursor.class[NodeCursor" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(DecimalNode.class[DecimalNode" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(LongNode.class[LongNode" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(TreeTraversingParser.class[TreeTraversingParser" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(ObjectNode.class[ObjectNode" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(TextNode.class[TextNode" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(POJONode.class[POJONode" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(ValueNode.class[ValueNode" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(ArrayNode.class[ArrayNode" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(NullNode.class[NullNode" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(DoubleNode.class[DoubleNode" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(JsonNodeFactory.class[JsonNodeFactory" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(BaseJsonNode.class[BaseJsonNode" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(BigIntegerNode.class[BigIntegerNode" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(ContainerNode.class[ContainerNode" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(BooleanNode.class[BooleanNode" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(MissingNode.class[MissingNode" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(ShortNode.class[ShortNode" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(JsonNodeCreator.class[JsonNodeCreator" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.node(BinaryNode.class[BinaryNode" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(NonTypedScalarSerializerBase.class[NonTypedScalarSerializerBase" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(ToStringSerializer.class[ToStringSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(DateSerializer.class[DateSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(FileSerializer.class[FileSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(InetAddressSerializer.class[InetAddressSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(NullSerializer.class[NullSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(StdArraySerializers.class[StdArraySerializers" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(SqlTimeSerializer.class[SqlTimeSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(TimeZoneSerializer.class[TimeZoneSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(BeanSerializerBase.class[BeanSerializerBase" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(CollectionSerializer.class[CollectionSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(NumberSerializers.class[NumberSerializers" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(EnumSerializer.class[EnumSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(ClassSerializer.class[ClassSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(StringSerializer.class[StringSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(AsArraySerializerBase.class[AsArraySerializerBase" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(EnumMapSerializer.class[EnumMapSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(StdKeySerializer.class[StdKeySerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(StdSerializer.class[StdSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(TokenBufferSerializer.class[TokenBufferSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(JsonValueSerializer.class[JsonValueSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(MapProperty.class[MapProperty" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(ArraySerializerBase.class[ArraySerializerBase" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(UUIDSerializer.class[UUIDSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(InetSocketAddressSerializer.class[InetSocketAddressSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(StdKeySerializers.class[StdKeySerializers" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(EnumSetSerializer.class[EnumSetSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(StaticListSerializerBase.class[StaticListSerializerBase" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(StdScalarSerializer.class[StdScalarSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(RawSerializer.class[RawSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(StdJdkSerializers.class[StdJdkSerializers" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(CalendarSerializer.class[CalendarSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(ObjectArraySerializer.class[ObjectArraySerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(SerializableSerializer.class[SerializableSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(ByteBufferSerializer.class[ByteBufferSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(MapSerializer.class[MapSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(IterableSerializer.class[IterableSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(SqlDateSerializer.class[SqlDateSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(DateTimeSerializerBase.class[DateTimeSerializerBase" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(StdDelegatingSerializer.class[StdDelegatingSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(BooleanSerializer.class[BooleanSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.std(NumberSerializer.class[NumberSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.util"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.util(ArrayBuilders.class[ArrayBuilders" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.util(StdConverter.class[StdConverter" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.util(Converter.class[Converter" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.util(RootNameLookup.class[RootNameLookup" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.util(NameTransformer.class[NameTransformer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.util(SimpleBeanPropertyDefinition.class[SimpleBeanPropertyDefinition" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.util(JSONPObject.class[JSONPObject" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.util(EnumValues.class[EnumValues" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.util(BeanUtil.class[BeanUtil" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.util(TokenBuffer.class[TokenBuffer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.util(JSONWrappedObject.class[JSONWrappedObject" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsonschema"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsonschema(JsonSchema.class[JsonSchema" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl(BeanAsArrayBuilderDeserializer.class[BeanAsArrayBuilderDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl(SetterlessProperty.class[SetterlessProperty" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl(MethodProperty.class[MethodProperty" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl(ReadableObjectId.class[ReadableObjectId" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl(PropertyBasedCreator.class[PropertyBasedCreator" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl(FieldProperty.class[FieldProperty" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl(ManagedReferenceProperty.class[ManagedReferenceProperty" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl(BeanAsArrayDeserializer.class[BeanAsArrayDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl(CreatorCollector.class[CreatorCollector" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl(FailingDeserializer.class[FailingDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl(BeanPropertyMap.class[BeanPropertyMap" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl(ObjectIdReferenceProperty.class[ObjectIdReferenceProperty" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl(ExternalTypeHandler.class[ExternalTypeHandler" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl(TypeWrappedDeserializer.class[TypeWrappedDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl(InnerClassProperty.class[InnerClassProperty" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl(ObjectIdValueProperty.class[ObjectIdValueProperty" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl(UnwrappedPropertyHandler.class[UnwrappedPropertyHandler" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl(ObjectIdReader.class[ObjectIdReader" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl(PropertyValueBuffer.class[PropertyValueBuffer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.impl(ValueInjector.class[ValueInjector" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(Module.class[Module" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(InjectableValues.class[InjectableValues" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(MappingJsonFactory.class[MappingJsonFactory" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(AnnotationIntrospector.class[AnnotationIntrospector" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(MappingIterator.class[MappingIterator" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(SerializationConfig.class[SerializationConfig" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(DatabindContext.class[DatabindContext" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(DeserializationFeature.class[DeserializationFeature" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(ObjectReader.class[ObjectReader" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(DeserializationConfig.class[DeserializationConfig" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(MapperFeature.class[MapperFeature" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(JsonSerializable.class[JsonSerializable" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(JsonSerializer.class[JsonSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(BeanDescription.class[BeanDescription" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(JsonNode.class[JsonNode" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(JavaType.class[JavaType" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(KeyDeserializer.class[KeyDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(SerializerProvider.class[SerializerProvider" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(JsonDeserializer.class[JsonDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(RuntimeJsonMappingException.class[RuntimeJsonMappingException" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(PropertyNamingStrategy.class[PropertyNamingStrategy" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(DeserializationContext.class[DeserializationContext" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(ObjectWriter.class[ObjectWriter" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(PropertyName.class[PropertyName" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(BeanProperty.class[BeanProperty" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(AbstractTypeResolver.class[AbstractTypeResolver" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(ObjectMapper.class[ObjectMapper" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind(SerializationFeature.class[SerializationFeature" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.sym"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.sym(Name1.class[Name1" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.sym(Name2.class[Name2" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.sym(BytesToNameCanonicalizer.class[BytesToNameCanonicalizer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.sym(Name3.class[Name3" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.sym(NameN.class[NameN" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.format"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.format(DataFormatMatcher.class[DataFormatMatcher" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.format(InputAccessor.class[InputAccessor" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.format(DataFormatDetector.class[DataFormatDetector" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect(ClassIntrospector.class[ClassIntrospector" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect(AnnotationMap.class[AnnotationMap" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect(JacksonAnnotationIntrospector.class[JacksonAnnotationIntrospector" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect(VisibilityChecker.class[VisibilityChecker" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect(AnnotatedParameter.class[AnnotatedParameter" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect(WithMember.class[WithMember" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect(AnnotationIntrospectorPair.class[AnnotationIntrospectorPair" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect(POJOPropertiesCollector.class[POJOPropertiesCollector" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect(AnnotatedMethodMap.class[AnnotatedMethodMap" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect(AnnotatedWithParams.class[AnnotatedWithParams" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect(BasicBeanDescription.class[BasicBeanDescription" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect(POJOPropertyBuilder.class[POJOPropertyBuilder" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect(Annotated.class[Annotated" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect(BasicClassIntrospector.class[BasicClassIntrospector" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect(AnnotatedClass.class[AnnotatedClass" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect(AnnotatedConstructor.class[AnnotatedConstructor" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect(AnnotatedMember.class[AnnotatedMember" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect(AnnotatedField.class[AnnotatedField" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect(AnnotatedMethod.class[AnnotatedMethod" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.introspect(BeanPropertyDefinition.class[BeanPropertyDefinition" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser(AbstractDeserializer.class[AbstractDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser(SettableAnyProperty.class[SettableAnyProperty" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser(DataFormatReaders.class[DataFormatReaders" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser(ValueInstantiator.class[ValueInstantiator" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser(DefaultDeserializationContext.class[DefaultDeserializationContext" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser(ValueInstantiators.class[ValueInstantiators" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser(BeanDeserializerModifier.class[BeanDeserializerModifier" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser(BuilderBasedDeserializer.class[BuilderBasedDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser(DeserializerFactory.class[DeserializerFactory" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser(DeserializerCache.class[DeserializerCache" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser(Deserializers.class[Deserializers" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser(CreatorProperty.class[CreatorProperty" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser(BasicDeserializerFactory.class[BasicDeserializerFactory" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser(BeanDeserializerBase.class[BeanDeserializerBase" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser(BeanDeserializerBuilder.class[BeanDeserializerBuilder" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser(UnresolvedForwardReference.class[UnresolvedForwardReference" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser(BeanDeserializer.class[BeanDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser(SettableBeanProperty.class[SettableBeanProperty" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser(BeanDeserializerFactory.class[BeanDeserializerFactory" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.type"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.type(CollectionLikeType.class[CollectionLikeType" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.type(TypeModifier.class[TypeModifier" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.type(TypeFactory.class[TypeFactory" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.type(TypeBindings.class[TypeBindings" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.type(TypeParser.class[TypeParser" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.type(ArrayType.class[ArrayType" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.type(CollectionType.class[CollectionType" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.type(SimpleType.class[SimpleType" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.type(TypeBase.class[TypeBase" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.type(MapLikeType.class[MapLikeType" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.type(MapType.class[MapType" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.type"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype.impl"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype.impl(TypeDeserializerBase.class[TypeDeserializerBase" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype.impl(TypeIdResolverBase.class[TypeIdResolverBase" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype.impl(AsArrayTypeDeserializer.class[AsArrayTypeDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype.impl(ClassNameIdResolver.class[ClassNameIdResolver" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype.impl(AsExternalTypeDeserializer.class[AsExternalTypeDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype.impl(AsWrapperTypeSerializer.class[AsWrapperTypeSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype.impl(AsPropertyTypeSerializer.class[AsPropertyTypeSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype.impl(StdSubtypeResolver.class[StdSubtypeResolver" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype.impl(MinimalClassNameIdResolver.class[MinimalClassNameIdResolver" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype.impl(AsPropertyTypeDeserializer.class[AsPropertyTypeDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype.impl(AsArrayTypeSerializer.class[AsArrayTypeSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype.impl(StdTypeResolverBuilder.class[StdTypeResolverBuilder" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype.impl(AsWrapperTypeDeserializer.class[AsWrapperTypeDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype.impl(TypeNameIdResolver.class[TypeNameIdResolver" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype.impl(AsExternalTypeSerializer.class[AsExternalTypeSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsontype.impl(TypeSerializerBase.class[TypeSerializerBase" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsonFormatVisitors"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsonFormatVisitors(JsonValueFormatVisitor.class[JsonValueFormatVisitor" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsonFormatVisitors(JsonObjectFormatVisitor.class[JsonObjectFormatVisitor" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsonFormatVisitors(JsonStringFormatVisitor.class[JsonStringFormatVisitor" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsonFormatVisitors(JsonAnyFormatVisitor.class[JsonAnyFormatVisitor" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsonFormatVisitors(JsonArrayFormatVisitor.class[JsonArrayFormatVisitor" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsonFormatVisitors(JsonBooleanFormatVisitor.class[JsonBooleanFormatVisitor" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsonFormatVisitors(JsonFormatVisitable.class[JsonFormatVisitable" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsonFormatVisitors(JsonIntegerFormatVisitor.class[JsonIntegerFormatVisitor" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsonFormatVisitors(JsonNumberFormatVisitor.class[JsonNumberFormatVisitor" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsonFormatVisitors(JsonNullFormatVisitor.class[JsonNullFormatVisitor" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsonFormatVisitors(JsonFormatVisitorWrapper.class[JsonFormatVisitorWrapper" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.jsonFormatVisitors(JsonMapFormatVisitor.class[JsonMapFormatVisitor" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.io"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.io(JsonStringEncoder.class[JsonStringEncoder" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.io(SegmentedStringWriter.class[SegmentedStringWriter" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.io(UTF8Writer.class[UTF8Writer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.io(InputDecorator.class[InputDecorator" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.io(IOContext.class[IOContext" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.io(OutputDecorator.class[OutputDecorator" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.io(UTF32Reader.class[UTF32Reader" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.io(MergedStream.class[MergedStream" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ext"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ext(CoreXMLDeserializers.class[CoreXMLDeserializers" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ext(DOMSerializer.class[DOMSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ext(CoreXMLSerializers.class[CoreXMLSerializers" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ext(DOMDeserializer.class[DOMDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser(BeanSerializerFactory.class[BeanSerializerFactory" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser(SerializerFactory.class[SerializerFactory" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser(BeanSerializer.class[BeanSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser(ContainerSerializer.class[ContainerSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser(AnyGetterWriter.class[AnyGetterWriter" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser(BeanPropertyWriter.class[BeanPropertyWriter" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser(FilterProvider.class[FilterProvider" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser(PropertyBuilder.class[PropertyBuilder" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser(Serializers.class[Serializers" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser(BeanPropertyFilter.class[BeanPropertyFilter" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser(DefaultSerializerProvider.class[DefaultSerializerProvider" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser(SerializerCache.class[SerializerCache" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser(PropertyWriter.class[PropertyWriter" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser(BasicSerializerFactory.class[BasicSerializerFactory" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser(BeanSerializerModifier.class[BeanSerializerModifier" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser(PropertyFilter.class[PropertyFilter" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser(BeanSerializerBuilder.class[BeanSerializerBuilder" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.cfg"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.cfg(BaseSettings.class[BaseSettings" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.cfg(MapperConfigBase.class[MapperConfigBase" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.cfg(MapperConfig.class[MapperConfig" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.cfg(DeserializerFactoryConfig.class[DeserializerFactoryConfig" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.cfg(HandlerInstantiator.class[HandlerInstantiator" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.cfg(ContextAttributes.class[ContextAttributes" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.cfg(SerializerFactoryConfig.class[SerializerFactoryConfig" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.util"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.util(JsonGeneratorDelegate.class[JsonGeneratorDelegate" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.util(JsonParserSequence.class[JsonParserSequence" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.util(TextBuffer.class[TextBuffer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.util(ByteArrayBuilder.class[ByteArrayBuilder" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.util(DefaultPrettyPrinter.class[DefaultPrettyPrinter" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.annotation"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.annotation(JsonPOJOBuilder.class[JsonPOJOBuilder" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.impl"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.impl(StringCollectionSerializer.class[StringCollectionSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.impl(IndexedListSerializer.class[IndexedListSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.impl(TypeWrappedSerializer.class[TypeWrappedSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.impl(UnwrappingBeanPropertyWriter.class[UnwrappingBeanPropertyWriter" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.impl(BeanAsArraySerializer.class[BeanAsArraySerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.impl(SimpleBeanPropertyFilter.class[SimpleBeanPropertyFilter" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.impl(FilteredBeanPropertyWriter.class[FilteredBeanPropertyWriter" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.impl(SimpleFilterProvider.class[SimpleFilterProvider" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.impl(IteratorSerializer.class[IteratorSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.impl(UnwrappingBeanSerializer.class[UnwrappingBeanSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.impl(WritableObjectId.class[WritableObjectId" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.impl(FailingSerializer.class[FailingSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.impl(IndexedStringListSerializer.class[IndexedStringListSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.impl(PropertySerializerMap.class[PropertySerializerMap" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.impl(ReadOnlyClassToSerializerMap.class[ReadOnlyClassToSerializerMap" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.impl(StringArraySerializer.class[StringArraySerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.impl(UnknownSerializer.class[UnknownSerializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.impl(PropertyBasedObjectIdGenerator.class[PropertyBasedObjectIdGenerator" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.ser.impl(JsonSerializerMap.class[JsonSerializerMap" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(MapDeserializer.class[MapDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(ThrowableDeserializer.class[ThrowableDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(TokenBufferDeserializer.class[TokenBufferDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(NumberDeserializers.class[NumberDeserializers" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(StringDeserializer.class[StringDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(StringArrayDeserializer.class[StringArrayDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(CollectionDeserializer.class[CollectionDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(EnumDeserializer.class[EnumDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(StdDeserializer.class[StdDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(EnumSetDeserializer.class[EnumSetDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(DateDeserializers.class[DateDeserializers" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(UUIDDeserializer.class[UUIDDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(JsonLocationInstantiator.class[JsonLocationInstantiator" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(StdKeyDeserializer.class[StdKeyDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(StdKeyDeserializers.class[StdKeyDeserializers" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(JsonNodeDeserializer.class[JsonNodeDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(NullifyingDeserializer.class[NullifyingDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(ContainerDeserializerBase.class[ContainerDeserializerBase" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(ByteBufferDeserializer.class[ByteBufferDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(FromStringDeserializer.class[FromStringDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(DelegatingDeserializer.class[DelegatingDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(StringCollectionDeserializer.class[StringCollectionDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(PrimitiveArrayDeserializers.class[PrimitiveArrayDeserializers" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(UntypedObjectDeserializer.class[UntypedObjectDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(StdDelegatingDeserializer.class[StdDelegatingDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(ArrayBlockingQueueDeserializer.class[ArrayBlockingQueueDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(AtomicReferenceDeserializer.class[AtomicReferenceDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(EnumMapDeserializer.class[EnumMapDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(StackTraceElementDeserializer.class[StackTraceElementDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(StdValueInstantiator.class[StdValueInstantiator" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(AtomicBooleanDeserializer.class[AtomicBooleanDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(ObjectArrayDeserializer.class[ObjectArrayDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-databind-2.4.1.jar&lt;com.fasterxml.jackson.databind.deser.std(StdScalarDeserializer.class[StdScalarDeserializer" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.base"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.base(GeneratorBase.class[GeneratorBase" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.base(ParserMinimalBase.class[ParserMinimalBase" modificationStamp="-1" restrictions="0" visibility="0"/>
+        <type handle="=com.accenture.libs.jackson/src\/jackson-core-2.4.1.jar&lt;com.fasterxml.jackson.core.base(ParserBase.class[ParserBase" modificationStamp="-1" restrictions="0" visibility="0"/>
+    </package>
+</component>

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TestPrintlnDemo
+Bundle-SymbolicName: TestPrintlnDemo
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: javax.usb;version="1.0.2",
+ org.osgi.service.component;version="1.2.0"
+Service-Component: src/TestPrintln/component.xml

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<javadocOptions>
+  <docletArtifacts>
+    <docletArtifact />
+  </docletArtifacts>
+  <tagletArtifacts>
+    <tagletArtifact />
+  </tagletArtifacts>
+  <links>
+    <link>http://javax-usb.sourceforge.net/jdoc/</link>
+    <link>http://docs.oracle.com/cd/E17802_01/products/products/javacomm/reference/api/index.html</link>
+    <link>http://docs.oracle.com/javame/config/cldc/opt-pkgs/api/bluetooth/jsr082/index.html?javax/bluetooth/package-summary.html</link>
+  </links>
+  <excludePackageNames>
+    <excludePackageName>*.ermes</excludePackageName>
+    <excludePackageName>*.demo*</excludePackageName>
+    <excludePackageName>*.example</excludePackageName>
+    <excludePackageName>*.core</excludePackageName>
+    <excludePackageName>*.cloud.app</excludePackageName>
+    <excludePackageName>*.net.admin</excludePackageName>
+    <excludePackageName>*.deployment</excludePackageName>
+    <excludePackageName>*.emulator</excludePackageName>
+    <excludePackageName>*.linux</excludePackageName>
+    <excludePackageName>*.qa</excludePackageName>
+    <excludePackageName>*.web</excludePackageName>
+    <excludePackageName>*.service.io</excludePackageName>
+    <excludePackageName>*.test</excludePackageName>
+  </excludePackageNames>
+  <javadocResourcesDirectory>src/main/javadoc</javadocResourcesDirectory>
+</javadocOptions>

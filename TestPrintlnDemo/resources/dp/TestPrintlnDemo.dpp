@@ -1,0 +1,20 @@
+#Deployment Plugin Project File
+#Wed Feb 17 15:42:34 CST 2016
+build.ant.name=<.>/resources/dp/TestPrintlnDemo_build.xml
+build.dp.file=<.>/resources/dp/TestPrintlnDemo.dp
+build.location=
+bundles.0.bundle_path=<.>/plugins/TestPrintlnDemo_1.0.0.201602171542.jar
+bundles.0.customizer=false
+bundles.0.headers.count=0
+bundles.0.missing=false
+bundles.0.name=bundles/TestPrintlnDemo_1.0.0.201602171542.jar
+bundles.0.symbolic_name=TestPrintlnDemo
+bundles.0.version=1.0.0.201602171542
+bundles.count=1
+certificates.count=0
+general.signbundles=false
+headers.other.headers=
+headers.symbolic.name=TestPrintlnDemo
+headers.version=1.0.0
+resources.count=0
+

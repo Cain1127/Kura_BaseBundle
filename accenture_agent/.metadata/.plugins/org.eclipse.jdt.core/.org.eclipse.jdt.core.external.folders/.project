@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.jdt.core.external.folders</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link1</name>
+			<type>2</type>
+			<location>/Users/wujinxin/MyApps/EclipseMars.app/Contents/Eclipse/plugins/com.ibm.rational.ttt.common.models.core_8.5.211.v20151126_1648/lib/open/http</location>
+		</link>
+	</linkedResources>
+</projectDescription>

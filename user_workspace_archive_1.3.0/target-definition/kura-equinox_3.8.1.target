@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="Kura Target Platform Equinox 3.8.1" sequenceNumber="47">
+<locations>
+<location path="/Users/apple/Develop/IoT/Kura/user_workspace_archive_1.3.0/target-definition/common/repository/plugins" type="Profile"/>
+<location path="/Users/apple/Develop/IoT/Kura/user_workspace_archive_1.3.0/target-definition/equinox_3.8.1/repository/plugins" type="Profile"/>
+</locations>
+</target>

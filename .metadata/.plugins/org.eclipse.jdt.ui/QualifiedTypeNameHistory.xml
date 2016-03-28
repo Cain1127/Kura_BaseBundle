@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="javax.usb.UsbServices"/>
+<fullyQualifiedTypeName name="javax.usb.UsbHostManager"/>
+<fullyQualifiedTypeName name="javax.usb.UsbHub"/>
+<fullyQualifiedTypeName name="javax.usb.UsbDevice"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.usb.UsbConfiguration"/>
+<fullyQualifiedTypeName name="javax.usb.UsbInterface"/>
+<fullyQualifiedTypeName name="javax.usb.UsbEndpoint"/>
+<fullyQualifiedTypeName name="javax.usb.UsbPipe"/>
+</qualifiedTypeNameHistroy>

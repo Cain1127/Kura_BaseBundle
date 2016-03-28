@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<browser_root_model>
+<browser_model framework_connect_key="false" framework_id_key="192.168.1.105" framework_name_key="Raspberry_Ysmeng_Home" pmp-port="1450" transport_type_key="plainSocket"/>
+<browser_model framework_connect_key="false" framework_id_key="192.168.0.19" framework_name_key="Raspberry_Ysmeng_Office" pmp-port="1450" transport_type_key="plainSocket"/>
+</browser_root_model>
